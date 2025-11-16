@@ -13,10 +13,10 @@ function Header(){
                         <Link to={"/"} className="flex items-center gap-2 text-lg"><IoHome/>Home</Link>
                     </li>
                     <li>
-                        <Link to={"/search"} className="flex items-center  gap-2 text-lg"><FaSearch/>Search</Link>
+                        <Link to={"/search"} className="flex items-center gap-2 text-lg"><FaSearch/>Search</Link>
                     </li>
                     <li>
-                        <Link to={"/about"} className="flex items-center  gap-2 text-lg"><IoIosInformationCircle />About</Link>
+                        <Link to={"/about"} className="flex items-center gap-2 text-lg"><IoIosInformationCircle />About</Link>
                     </li>
                 </ul>
             </nav>
