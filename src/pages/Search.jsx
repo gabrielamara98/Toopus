@@ -1,6 +1,11 @@
+import Card from "../components/Card";
+
 function Search(){
     return(
-        <div>Pagina de busca</div>
+        <>
+        <h2>Pagina de busca</h2>
+        <Card></Card>
+        </>
         
     )
 }
