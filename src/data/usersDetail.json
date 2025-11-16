@@ -1,0 +1,405 @@
+[
+  {
+    "id": 1,
+    "nome": "Ana Souza",
+    "foto": "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg",
+    "cargo": "Engenheira de Software",
+    "resumo": "Desenvolvedora full-stack com foco em aplicações web.",
+    "localizacao": "São Paulo/SP",
+    "area": "Desenvolvimento",
+    "habilidadesTecnicas": ["JavaScript", "Node.js", "React"],
+    "softSkills": ["Comunicação", "Organização"],
+    "experiencias": [
+      {
+        "empresa": "TechCorp",
+        "cargo": "Desenvolvedora Front-end",
+        "inicio": "2021-03",
+        "fim": "2023-12",
+        "descricao": "Desenvolvimento de interfaces responsivas e otimização de UX."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Ciência da Computação",
+        "instituicao": "USP",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Dashboard Analytics",
+        "link": "https://example.com/projeto1",
+        "descricao": "Dashboard para visualização de métricas."
+      }
+    ],
+    "certificacoes": ["Scrum Master"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Avançado" },
+      { "idioma": "Espanhol", "nivel": "Intermediário" }
+    ],
+    "areaInteresses": ["IA", "DevOps"]
+  },
+
+  {
+    "id": 2,
+    "nome": "Bruno Almeida",
+    "foto": "https://images.pexels.com/photos/810775/pexels-photo-810775.jpeg",
+    "cargo": "Analista de Dados",
+    "resumo": "Especialista em análise estatística e criação de dashboards.",
+    "localizacao": "Curitiba/PR",
+    "area": "Dados",
+    "habilidadesTecnicas": ["Python", "SQL", "Power BI"],
+    "softSkills": ["Pensamento Crítico", "Colaboração"],
+    "experiencias": [
+      {
+        "empresa": "DataVision",
+        "cargo": "Analista Júnior",
+        "inicio": "2020-01",
+        "fim": "2022-08",
+        "descricao": "Criação de relatórios e modelos de previsão."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Engenharia de Produção",
+        "instituicao": "UTFPR",
+        "ano": 2019
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Modelo de previsão de vendas",
+        "link": "https://example.com/projeto2",
+        "descricao": "Sistema preditivo baseado em séries temporais."
+      }
+    ],
+    "certificacoes": ["Microsoft Data Analyst"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Intermediário" }
+    ],
+    "areaInteresses": ["Machine Learning", "Estatística"]
+  },
+
+  {
+    "id": 3,
+    "nome": "Carla Ribeiro",
+    "foto": "https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg",
+    "cargo": "UX Designer",
+    "resumo": "Designer focada em experiência do usuário e acessibilidade.",
+    "localizacao": "Rio de Janeiro/RJ",
+    "area": "Design",
+    "habilidadesTecnicas": ["Figma", "UX Research", "Prototipação"],
+    "softSkills": ["Empatia", "Criatividade"],
+    "experiencias": [
+      {
+        "empresa": "UI Studio",
+        "cargo": "UX Designer",
+        "inicio": "2019-05",
+        "fim": "2024-01",
+        "descricao": "Pesquisas com usuários, testes A/B, protótipos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Design Gráfico",
+        "instituicao": "ESPM",
+        "ano": 2018
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "App de mobilidade",
+        "link": "https://example.com/projeto3",
+        "descricao": "Redesign completo da interface mobile."
+      }
+    ],
+    "certificacoes": ["UX-PM nível 1"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Avançado" },
+      { "idioma": "Francês", "nivel": "Básico" }
+    ],
+    "areaInteresses": ["Design Inclusivo", "Psicologia Cognitiva"]
+  },
+
+  {
+    "id": 4,
+    "nome": "Diego Martins",
+    "foto": "https://images.pexels.com/photos/2589653/pexels-photo-2589653.jpeg",
+    "cargo": "DevOps Engineer",
+    "resumo": "Especialista em CI/CD e automação de pipelines.",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "Infraestrutura",
+    "habilidadesTecnicas": ["Docker", "Kubernetes", "AWS"],
+    "softSkills": ["Resolução de Problemas", "Trabalho em Equipe"],
+    "experiencias": [
+      {
+        "empresa": "CloudWorks",
+        "cargo": "DevOps",
+        "inicio": "2020-09",
+        "fim": "2024-02",
+        "descricao": "Automação de deploys e monitoração de clusters."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Sistemas de Informação",
+        "instituicao": "PUC Minas",
+        "ano": 2019
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Infraestrutura como código",
+        "link": "https://example.com/projeto4",
+        "descricao": "Pipeline com Terraform e Jenkins."
+      }
+    ],
+    "certificacoes": ["AWS SysOps"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Avançado" }
+    ],
+    "areaInteresses": ["Automação", "Cloud Native"]
+  },
+
+  {
+    "id": 5,
+    "nome": "Eduarda Campos",
+    "foto": "https://images.pexels.com/photos/1080213/pexels-photo-1080213.jpeg",
+    "cargo": "Cientista de Dados",
+    "resumo": "Experiência com aprendizado de máquina e análise exploratória.",
+    "localizacao": "Florianópolis/SC",
+    "area": "Dados",
+    "habilidadesTecnicas": ["Python", "TensorFlow", "Pandas"],
+    "softSkills": ["Organização", "Adaptabilidade"],
+    "experiencias": [
+      {
+        "empresa": "AI Labs",
+        "cargo": "Data Scientist Jr",
+        "inicio": "2021-06",
+        "fim": "2024-03",
+        "descricao": "Construção de modelos de classificação e regressão."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Matemática Aplicada",
+        "instituicao": "UFSC",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Modelo de detecção de fraude",
+        "link": "https://example.com/projeto5",
+        "descricao": "Rede neural para classificar transações suspeitas."
+      }
+    ],
+    "certificacoes": ["Google Professional ML Engineer"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Avançado" }
+    ],
+    "areaInteresses": ["Deep Learning", "NLP"]
+  },
+
+  {
+    "id": 6,
+    "nome": "Fernando Lopes",
+    "foto": "https://images.pexels.com/photos/7562078/pexels-photo-7562078.jpeg",
+    "cargo": "Engenheiro de Software Backend",
+    "resumo": "Focado em arquiteturas escaláveis e microserviços.",
+    "localizacao": "Campinas/SP",
+    "area": "Desenvolvimento",
+    "habilidadesTecnicas": ["Go", "PostgreSQL", "RabbitMQ"],
+    "softSkills": ["Pensamento Analítico", "Comunicação"],
+    "experiencias": [
+      {
+        "empresa": "APIHub",
+        "cargo": "Backend Developer",
+        "inicio": "2018-02",
+        "fim": "2023-09",
+        "descricao": "Desenvolvimento de serviços de alto desempenho."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Engenharia de Computação",
+        "instituicao": "UNICAMP",
+        "ano": 2017
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Sistema de mensageria",
+        "link": "https://example.com/projeto6",
+        "descricao": "Implementação de mensageria distribuída."
+      }
+    ],
+    "certificacoes": [],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Avançado" },
+      { "idioma": "Alemão", "nivel": "Básico" }
+    ],
+    "areaInteresses": ["Arquitetura de Software", "SRE"]
+  },
+
+  {
+    "id": 7,
+    "nome": "Gabriela Ferreira",
+    "foto": "https://images.pexels.com/photos/9421340/pexels-photo-9421340.jpeg",
+    "cargo": "Product Manager",
+    "resumo": "Experiência com discovery, métricas e gestão de roadmap.",
+    "localizacao": "Porto Alegre/RS",
+    "area": "Produto",
+    "habilidadesTecnicas": ["SQL", "Jira", "Analytics"],
+    "softSkills": ["Liderança", "Comunicação"],
+    "experiencias": [
+      {
+        "empresa": "Prodify",
+        "cargo": "PM",
+        "inicio": "2019-10",
+        "fim": "2024-02",
+        "descricao": "Liderança de squads e definição de OKRs."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Administração",
+        "instituicao": "UFRGS",
+        "ano": 2018
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Aplicativo educacional",
+        "link": "https://example.com/projeto7",
+        "descricao": "Gerenciamento de produto e roadmap."
+      }
+    ],
+    "certificacoes": ["Product Owner"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Intermediário" }
+    ],
+    "areaInteresses": ["Educação", "Psicologia Comportamental"]
+  },
+
+  {
+    "id": 8,
+    "nome": "Henrique Santos",
+    "foto": "https://images.pexels.com/photos/18749978/pexels-photo-18749978.jpeg",
+    "cargo": "QA Engineer",
+    "resumo": "Automação de testes e garantia de qualidade.",
+    "localizacao": "Recife/PE",
+    "area": "Qualidade",
+    "habilidadesTecnicas": ["Selenium", "Cypress", "Java"],
+    "softSkills": ["Detalhismo", "Proatividade"],
+    "experiencias": [
+      {
+        "empresa": "QualiTech",
+        "cargo": "QA Analyst",
+        "inicio": "2020-04",
+        "fim": "2024-01",
+        "descricao": "Criação de suites de testes automatizados."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Análise e Desenvolvimento de Sistemas",
+        "instituicao": "Estácio",
+        "ano": 2019
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Pipeline de testes automatizados",
+        "link": "https://example.com/projeto8",
+        "descricao": "Integração de testes end-to-end."
+      }
+    ],
+    "certificacoes": ["ISTQB Foundation"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Básico" }
+    ],
+    "areaInteresses": ["Automação", "Testes de Performance"]
+  },
+
+  {
+    "id": 9,
+    "nome": "Isabela Moura",
+    "foto": "https://images.pexels.com/photos/6112353/pexels-photo-6112353.jpeg",
+    "cargo": "Marketing Digital",
+    "resumo": "Especialista em campanhas de mídia paga e SEO.",
+    "localizacao": "Fortaleza/CE",
+    "area": "Marketing",
+    "habilidadesTecnicas": ["SEO", "Google Ads", "Analytics"],
+    "softSkills": ["Criatividade", "Comunicação"],
+    "experiencias": [
+      {
+        "empresa": "AdBoost",
+        "cargo": "Marketing Analyst",
+        "inicio": "2019-01",
+        "fim": "2024-01",
+        "descricao": "Gestão de campanhas e otimização de tráfego."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Publicidade",
+        "instituicao": "UNIFOR",
+        "ano": 2018
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Growth Dashboard",
+        "link": "https://example.com/projeto9",
+        "descricao": "Plataforma de análise de campanhas."
+      }
+    ],
+    "certificacoes": ["Google Ads Expert"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Intermediário" }
+    ],
+    "areaInteresses": ["Growth", "Branding"]
+  },
+
+  {
+    "id": 10,
+    "nome": "João Pedro Silveira",
+    "foto": "https://images.pexels.com/photos/7366257/pexels-photo-7366257.jpeg",
+    "cargo": "Mobile Developer",
+    "resumo": "Desenvolvedor Android e iOS com foco em apps escaláveis.",
+    "localizacao": "Salvador/BA",
+    "area": "Desenvolvimento",
+    "habilidadesTecnicas": ["Kotlin", "Swift", "Flutter"],
+    "softSkills": ["Criatividade", "Resiliência"],
+    "experiencias": [
+      {
+        "empresa": "AppWorks",
+        "cargo": "Mobile Developer",
+        "inicio": "2020-02",
+        "fim": "2024-03",
+        "descricao": "Desenvolvimento de apps nativos e híbridos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Ciência da Computação",
+        "instituicao": "UFBA",
+        "ano": 2019
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Aplicativo de streaming",
+        "link": "https://example.com/projeto10",
+        "descricao": "App multiplataforma para conteúdos de vídeo."
+      }
+    ],
+    "certificacoes": ["Android Developer NanoDegree"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Avançado" },
+      { "idioma": "Espanhol", "nivel": "Básico" }
+    ],
+    "areaInteresses": ["Mobile First", "Arquitetura Limpa"]
+  }
+]
