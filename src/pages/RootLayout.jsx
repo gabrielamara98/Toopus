@@ -1,6 +1,11 @@
+import Header from "../components/Header";
+
 function RootLayout(){
     return(
-        <h1>Teste</h1>
+        <>
+            <Header/>
+        </>
+        
     )
 }
 export default RootLayout;
