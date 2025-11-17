@@ -1,9 +1,12 @@
+import { useState } from "react"
 import dadosPerfil from "../data/usersDetail.json"
+import Modal from '../components/Modal'
 
 function Card(){
     return(
         <>
             {dadosPerfil.map((items) =>{
+                const [open,setOpen] = useState(false)
                 return(
                     <div key={items.id} className="grid auto-rows-auto w-sm bg-white border border-gray-200 rounded-3xl justify-items-center gap-4 px-6 py-6 shadow-md hover:shadow-lg transition-all duration-300"> 
                         <div className="w-40 h-40 rounded-full overflow-hidden border-4 border-green-500 shadow-md">
@@ -21,7 +24,11 @@ function Card(){
                                 )
                             })}
                         </div>
-                        <button className="border border-green-600 text-green-700 rounded-full min-w-xs py-2 px-4 mt-4 hover:bg-green-600 hover:text-white transition-all">Ver mais</button>
+                        <button onClick = {() => setOpen(true)}className="border border-green-600 text-green-700 rounded-full min-w-xs py-2 px-4 mt-4 hover:bg-green-600 hover:text-white transition-all">Ver mais</button>
+                        <Modal
+                        open={open}
+                        setOpen={setOpen}
+                        {...items}/>
                     </div>
                 )
             })}
