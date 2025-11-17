@@ -1,8 +1,7 @@
-import { useState } from 'react'
 import { Dialog, DialogBackdrop, DialogPanel, DialogTitle } from '@headlessui/react'
 
 
-export default function Example({open, setOpen, nome, foto, cargo, resumo, localizacao, area, habilidadesTecnicas, softSkills, experiencias, formacao, projetos, certificacoes, idiomas, areaInteresse}) {
+function Modal({open, setOpen, nome, foto, cargo, resumo, localizacao, area, habilidadesTecnicas, softSkills, experiencias, formacao, projetos, certificacoes, idiomas, areaInteresses}) {
  
   return (
     <div>
@@ -20,8 +19,6 @@ export default function Example({open, setOpen, nome, foto, cargo, resumo, local
             >
               <div className="bg-gray-800 px-4 pt-5 pb-4 sm:p-6 sm:pb-4">
                 <div className="sm:flex sm:items-start">
-                  <div className="mx-auto flex size-12 shrink-0 items-center justify-center rounded-full bg-red-500/10 sm:mx-0 sm:size-10">
-                  </div>
                   <div className="mt-3 text-center sm:mt-0 sm:ml-4 sm:text-left">
                     <DialogTitle as="h3" className="text-base font-semibold text-white">Perfil</DialogTitle>
                     <div className='text-base font-semibold text-white'>
@@ -103,6 +100,15 @@ export default function Example({open, setOpen, nome, foto, cargo, resumo, local
                                 )
                             })}
                         </div>
+                        <div>
+                            <ul>
+                                {areaInteresses.map((area) =>{
+                                    return(
+                                        <li>{area}</li>
+                                    )
+                                })}
+                            </ul>
+                        </div>
                     </div>
                   </div>
                 </div>
@@ -125,3 +131,5 @@ export default function Example({open, setOpen, nome, foto, cargo, resumo, local
     </div>
   )
 }
+
+export default Modal;
