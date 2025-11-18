@@ -51,7 +51,7 @@ function Modal({open, setOpen, nome, foto, cargo, resumo, localizacao, area, hab
                     {/* RESUMO */}
                     {resumo && (
                         <section>
-                        <h4 className="text-sm font-semibold text-gray-800 mb-1">Sobre</h4>
+                        <h4 className="text-sm font-semibold text-gray-800 mb-1 text-xl">Sobre</h4>
                         <p className="text-sm text-gray-700 leading-relaxed">{resumo}</p>
                         </section>
                     )}
@@ -59,7 +59,7 @@ function Modal({open, setOpen, nome, foto, cargo, resumo, localizacao, area, hab
                     {/* SOFT SKILLS */}
                     {softSkills && softSkills.length > 0 && (
                         <section>
-                        <h4 className="text-sm font-semibold text-gray-800 mb-1">Soft skills</h4>
+                        <h4 className="text-sm font-semibold text-gray-800 mb-1 text-xl">Soft skills</h4>
                         <ul className="flex flex-wrap gap-2">
                             {softSkills.map((soft) => (
                             <li key={soft} className="px-3 py-1 rounded-full bg-green-50 text-green-800 border border-green-200 text-xs">
@@ -73,13 +73,13 @@ function Modal({open, setOpen, nome, foto, cargo, resumo, localizacao, area, hab
                     {/* EXPERIÊNCIAS */}
                     {experiencias && experiencias.length > 0 && (
                         <section>
-                        <h4 className="text-sm font-semibold text-gray-800 mb-1">Experiências</h4>
+                        <h4 className="text-sm font-semibold text-gray-800 mb-1 text-xl">Experiências</h4>
                         <div className="space-y-3">
                             {experiencias.map((xp, index) => (
                             <div key={index} className="rounded-xl bg-gray-50 px-3 py-2 text-sm text-gray-800">
-                                <p className="font-semibold">{xp.empresa}</p>
+                                <p className="font-semibold text-lg">{xp.empresa}</p>
                                 <p className="text-xs text-gray-600">{xp.cargo} • {xp.inicio} - {xp.fim}</p>
-                                <p className="text-xs mt-1">{xp.descricao}</p>
+                                <p className="mt-1">{xp.descricao}</p>
                             </div>
                             ))}
                         </div>
@@ -89,11 +89,11 @@ function Modal({open, setOpen, nome, foto, cargo, resumo, localizacao, area, hab
                     {/* FORMAÇÃO */}
                     {formacao && formacao.length > 0 && (
                         <section>
-                        <h4 className="text-sm font-semibold text-gray-800 mb-1">Formação</h4>
+                        <h4 className="text-sm font-semibold text-gray-800 mb-1 text-xl">Formação</h4>
                         <div className="space-y-2 text-sm text-gray-800">
                             {formacao.map((f, index) => (
                             <div key={index}>
-                                <p className="font-semibold">{f.curso}</p>
+                                <p className="font-semibold text-base">{f.curso}</p>
                                 <p className="text-xs text-gray-600">{f.instituicao} • {f.ano}</p>
                             </div>
                             ))}
@@ -104,7 +104,7 @@ function Modal({open, setOpen, nome, foto, cargo, resumo, localizacao, area, hab
                     {/* PROJETOS */}
                     {projetos && projetos.length > 0 && (
                         <section>
-                        <h4 className="text-sm font-semibold text-gray-800 mb-1">Projetos</h4>
+                        <h4 className="text-sm font-semibold text-gray-800 mb-1 text-xl">Projetos</h4>
                         <div className="space-y-2 text-sm text-gray-800">
                             {projetos.map((pro, index) => (
                             <div key={index} className="rounded-xl bg-gray-50 px-3 py-2">
@@ -122,7 +122,7 @@ function Modal({open, setOpen, nome, foto, cargo, resumo, localizacao, area, hab
                     {/* CERTIFICAÇÕES */}
                     {certificacoes && certificacoes.length > 0 && (
                         <section>
-                        <h4 className="text-sm font-semibold text-gray-800 mb-1">Certificações</h4>
+                        <h4 className="text-sm font-semibold text-gray-800 mb-1 text-xl">Certificações</h4>
                         <ul className="list-disc list-inside text-sm text-gray-800">
                             {certificacoes.map((c, index) => (
                             <li key={index}>{c}</li>
@@ -134,7 +134,7 @@ function Modal({open, setOpen, nome, foto, cargo, resumo, localizacao, area, hab
                     {/* IDIOMAS */}
                     {idiomas && idiomas.length > 0 && (
                         <section>
-                        <h4 className="text-sm font-semibold text-gray-800 mb-1">Idiomas</h4>
+                        <h4 className="text-sm font-semibold text-gray-800 mb-1 text-xl">Idiomas</h4>
                         <div className="space-y-1 text-sm text-gray-800">
                             {idiomas.map((idio, index) => (
                             <p key={index}>
@@ -149,7 +149,7 @@ function Modal({open, setOpen, nome, foto, cargo, resumo, localizacao, area, hab
                     {/* ÁREAS DE INTERESSE */}
                     {areaInteresses && areaInteresses.length > 0 && (
                         <section>
-                        <h4 className="text-sm font-semibold text-gray-800 mb-1">Áreas de interesse</h4>
+                        <h4 className="text-sm font-semibold text-gray-800 mb-1 text-xl">Áreas de interesse</h4>
                         <ul className="flex flex-wrap gap-2">
                             {areaInteresses.map((areaItem) => (
                             <li key={areaItem} className="px-3 py-1 rounded-full bg-green-50 text-green-800 border border-green-200 text-xs">
