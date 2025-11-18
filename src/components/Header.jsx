@@ -5,18 +5,18 @@ import { Link } from "react-router-dom";
 
 function Header(){
     return(
-        <header className="grid grid-cols-2 items-center px-10 py-5 border min-w-full">
-            <h1 className="flex items-center gap-2 text-4xl" >Toopus</h1>
+        <header className="w-full bg-white shadow-md border-b border-gray-200 px-10 py-4 flex items-center justify-between">
+            <h1 className="text-4xl font-bold text-green-600 tracking-wide">Toopus</h1>
             <nav>
-                <ul className="flex justify-center gap-10">
+                <ul className="flex items-center gap-10 text-700 font-medium">
                     <li>
-                        <Link to={"/"} className="flex items-center gap-2 text-lg"><IoHome/>Home</Link>
+                        <Link to={"/"} className="flex items-center gap-2 text-lg hover:text-green-600 transition-colors"><IoHome className="text-green-600"/>Home</Link>
                     </li>
                     <li>
-                        <Link to={"/search"} className="flex items-center gap-2 text-lg"><FaSearch/>Search</Link>
+                        <Link to={"/search"} className="flex items-center gap-2 text-lg hover:text-green-600 transition-colors"><FaSearch className="text-green-600"/>Search</Link>
                     </li>
                     <li>
-                        <Link to={"/about"} className="flex items-center gap-2 text-lg"><IoIosInformationCircle />About</Link>
+                        <Link to={"/about"} className="flex items-center gap-2 text-lg hover:text-green-600 transition-colors"><IoIosInformationCircle className="text-green-600"/>About</Link>
                     </li>
                 </ul>
             </nav>
