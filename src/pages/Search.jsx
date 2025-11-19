@@ -1,9 +1,15 @@
+import SearchBar from "../components/SearchBar";
 import SearchFilter from "../components/SearchFilter";
+
 
 function Search(){
     return(
         <>
-        <SearchFilter />
+            <div>
+                <SearchBar/>
+                <SearchFilter/>
+            </div>
+
         </>
         
     )

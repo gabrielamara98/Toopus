@@ -1,6 +1,5 @@
 import { IoHome } from "react-icons/io5";
 import { FaSearch } from "react-icons/fa";
-import { FaUsers } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 function Header(){
@@ -14,9 +13,6 @@ function Header(){
                     </li>
                     <li>
                         <Link to={"/search"} className="flex items-center gap-2 text-lg hover:text-green-600 transition-colors"><FaSearch className="text-green-600"/>Search</Link>
-                    </li>
-                    <li>
-                        <Link to={"/members"} className="flex items-center gap-2 text-lg hover:text-green-600 transition-colors"><FaUsers className="text-green-600"/>Members</Link>
                     </li>
                 </ul>
             </nav>

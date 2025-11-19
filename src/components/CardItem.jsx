@@ -32,7 +32,7 @@ function CardItem({ items }) {
 
       <button
         onClick={() => setOpen(true)}
-        className="border border-green-600 text-green-700 rounded-full min-w-xs py-2 px-4 mt-4 hover:bg-green-600 hover:text-white transition-all"
+        className="border border-green-600 text-green-700 rounded-full min-w-xs py-2 px-4 mt-4 hover:bg-green-600 hover:text-white transition-all cursor-pointer"
       >Ver mais</button>
 
       <Modal
