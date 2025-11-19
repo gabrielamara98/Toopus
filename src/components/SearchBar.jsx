@@ -22,11 +22,13 @@ function SearchBar(){
     return(
         <>
             <input type = "text" value={item} onChange={handleInput} placeholder="Digite aqui para procurar"></input>
-            {usuario.map((x) =>{
-                return(
-                    <Card key={x.id} item={x} />
-                )
-            })}
+            <div className="flex flex-wrap max-w-4xl gap-20 justify-self-center justify-center">
+                {usuario.map((x) =>{
+                    return(
+                            <Card key={x.id} item={x} />
+                    )
+                })}
+            </div>
         </>
     )
 }
