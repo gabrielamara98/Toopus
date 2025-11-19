@@ -1,6 +1,6 @@
 import { IoHome } from "react-icons/io5";
 import { FaSearch } from "react-icons/fa";
-import { IoIosInformationCircle } from "react-icons/io";
+import { FaUsers } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 function Header(){
@@ -16,7 +16,7 @@ function Header(){
                         <Link to={"/search"} className="flex items-center gap-2 text-lg hover:text-green-600 transition-colors"><FaSearch className="text-green-600"/>Search</Link>
                     </li>
                     <li>
-                        <Link to={"/about"} className="flex items-center gap-2 text-lg hover:text-green-600 transition-colors"><IoIosInformationCircle className="text-green-600"/>About</Link>
+                        <Link to={"/members"} className="flex items-center gap-2 text-lg hover:text-green-600 transition-colors"><FaUsers className="text-green-600"/>Members</Link>
                     </li>
                 </ul>
             </nav>
