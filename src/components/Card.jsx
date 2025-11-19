@@ -1,14 +1,8 @@
-import dadosPerfil from "../data/usersDetail.json"
 import CardItem from "../components/CardItem"
 
-function Card() {
-  return (
-    <>
-      {dadosPerfil.map((items) => (
-        <CardItem key={items.id} items={items} />
-      ))}
-    </>
-  )
+function Card({item}) {
+  return <CardItem items ={item}/>
+  
 }
 
 export default Card
