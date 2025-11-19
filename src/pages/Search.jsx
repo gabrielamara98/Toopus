@@ -1,6 +1,9 @@
+import SearchFilter from "../components/SearchFilter";
+
 function Search(){
     return(
         <>
+        <SearchFilter />
         </>
         
     )
