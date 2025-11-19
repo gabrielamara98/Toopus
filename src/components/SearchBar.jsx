@@ -1,36 +1,33 @@
 import { useState } from "react";
-import dados from "../data/usersDetail.json"
-import Card from "./Card";
+import dados from "../data/usersDetail.json";
 
-function SearchBar(){
+function SearchBar({ onFilter }) {
+  const [item, SetItem] = useState("");
 
-    const [item,SetItem] = useState('')
-    const [usuario, setUsuario] = useState(dados)
+  const handleInput = (letra) => {
+    const inputDigitado = letra.target.value;
+    SetItem(inputDigitado);
 
-    const handleInput= (letra) => {
-        const inputDigitado = letra.target.value
-        SetItem(inputDigitado)
+    const usuarioFiltro = dados.filter((u) =>
+      u.nome.toLowerCase().includes(inputDigitado.toLowerCase())
+    );
 
-        const usuarioFiltro = dados.filter((u) =>
-            u.nome.toLocaleLowerCase().includes(inputDigitado.toLocaleLowerCase())
-        );
-
-        console.log(usuarioFiltro)
-        setUsuario(usuarioFiltro)
+    if (onFilter) {
+      onFilter(usuarioFiltro);
     }
+  };
 
-    return(
-        <>
-            <input type = "text" value={item} onChange={handleInput} placeholder="Digite aqui para procurar"></input>
-            <div className="flex flex-wrap max-w-4xl gap-20 justify-self-center justify-center">
-                {usuario.map((x) =>{
-                    return(
-                            <Card key={x.id} item={x} />
-                    )
-                })}
-            </div>
-        </>
-    )
+  return (
+    <>
+      <input
+        type="text"
+        value={item}
+        onChange={handleInput}
+        placeholder="Digite aqui para procurar"
+        className="w-full px-4 py-2.5 border border-gray-300 rounded-2xl shadow-sm bg-white text-gray-700 placeholder-gray-400 focus:outline-none focus:border-green-600 focus:ring-2 focus:ring-green-200"
+      />
+    </>
+  );
 }
 
 export default SearchBar;
