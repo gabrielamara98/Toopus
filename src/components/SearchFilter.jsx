@@ -1,9 +1,51 @@
-import React from "react";
+import { useState } from "react";
+import dados from "../data/usersDetail.json";
 
-function SearchFilter() {
+function SearchFilter({ onFilter }) {
+  const [areasSelecionadas, setAreasSelecionadas] = useState([]);
+  const [idiomasSelecionados, setIdiomasSelecionados] = useState([]);
+  const [interessesSelecionados, setInteressesSelecionados] = useState([]);
+
+  function aplicarFiltros(nAreas, nIdiomas, nInteresses) {
+    let filtrados = dados;
+
+    if (nAreas.length > 0) {
+      filtrados = filtrados.filter((u) => nAreas.includes(u.area));
+    }
+
+    if (nIdiomas.length > 0) {
+      filtrados = filtrados.filter((u) =>
+        u.idiomas.some((i) => nIdiomas.includes(i.idioma))
+      );
+    }
+
+    if (nInteresses.length > 0) {
+      filtrados = filtrados.filter((u) =>
+        u.areaInteresses.some((i) => nInteresses.includes(i))
+      );
+    }
+
+    onFilter(filtrados);
+  }
+
+  function atualizar(e, lista, setLista) {
+    const { checked, value } = e.target;
+
+    const novaLista = checked
+      ? [...lista, value]
+      : lista.filter((item) => item !== value);
+
+    setLista(novaLista);
+
+    aplicarFiltros(
+      lista === areasSelecionadas ? novaLista : areasSelecionadas,
+      lista === idiomasSelecionados ? novaLista : idiomasSelecionados,
+      lista === interessesSelecionados ? novaLista : interessesSelecionados
+    );
+  }
+
   return (
     <div className="w-full">
-
       <aside className="w-full mt-4">
         <div className="bg-white border border-gray-200 rounded-3xl shadow-md px-6 py-6">
 
@@ -17,40 +59,25 @@ function SearchFilter() {
             <h2 className="text-base font-semibold text-gray-800 mb-3">Área</h2>
 
             <div className="space-y-1.5 text-sm text-gray-700">
-              <label className="flex items-center gap-2">
-                <input type="checkbox" className="accent-green-600" />
-                <span>Desenvolvimento</span>
-              </label>
-
-              <label className="flex items-center gap-2">
-                <input type="checkbox" className="accent-green-600" />
-                <span>Dados</span>
-              </label>
-
-              <label className="flex items-center gap-2">
-                <input type="checkbox" className="accent-green-600" />
-                <span>Design</span>
-              </label>
-
-              <label className="flex items-center gap-2">
-                <input type="checkbox" className="accent-green-600" />
-                <span>Infraestrutura</span>
-              </label>
-
-              <label className="flex items-center gap-2">
-                <input type="checkbox" className="accent-green-600" />
-                <span>Produto</span>
-              </label>
-
-              <label className="flex items-center gap-2">
-                <input type="checkbox" className="accent-green-600" />
-                <span>Qualidade</span>
-              </label>
-
-              <label className="flex items-center gap-2">
-                <input type="checkbox" className="accent-green-600" />
-                <span>Marketing</span>
-              </label>
+              {[
+                "Desenvolvimento",
+                "Dados",
+                "Design",
+                "Infraestrutura",
+                "Produto",
+                "Qualidade",
+                "Marketing"
+              ].map((area) => (
+                <label key={area} className="flex items-center gap-2">
+                  <input
+                    type="checkbox"
+                    value={area}
+                    className="accent-green-600"
+                    onChange={(e) => atualizar(e, areasSelecionadas, setAreasSelecionadas)}
+                  />
+                  <span>{area}</span>
+                </label>
+              ))}
             </div>
           </section>
 
@@ -60,25 +87,17 @@ function SearchFilter() {
             <h2 className="text-bse font-semibold text-gray-800 mb-3">Idiomas</h2>
 
             <div className="space-y-1.5 text-sm text-gray-700">
-              <label className="flex items-center gap-2">
-                <input type="checkbox" className="accent-green-600" />
-                <span>Inglês</span>
-              </label>
-
-              <label className="flex items-center gap-2">
-                <input type="checkbox" className="accent-green-600" />
-                <span>Espanhol</span>
-              </label>
-
-              <label className="flex items-center gap-2">
-                <input type="checkbox" className="accent-green-600" />
-                <span>Francês</span>
-              </label>
-
-              <label className="flex items-center gap-2">
-                <input type="checkbox" className="accent-green-600" />
-                <span>Alemão</span>
-              </label>
+              {["Inglês", "Espanhol", "Francês", "Alemão"].map((idioma) => (
+                <label key={idioma} className="flex items-center gap-2">
+                  <input
+                    type="checkbox"
+                    value={idioma}
+                    className="accent-green-600"
+                    onChange={(e) => atualizar(e, idiomasSelecionados, setIdiomasSelecionados)}
+                  />
+                  <span>{idioma}</span>
+                </label>
+              ))}
             </div>
           </section>
 
@@ -88,95 +107,23 @@ function SearchFilter() {
             <h2 className="text-bse font-semibold text-gray-800 mb-3">Áreas de Interesse</h2>
 
             <div className="grid grid-cols-2 gap-y-2 text-sm text-gray-700">
-              <label className="flex items-center gap-2">
-                <input type="checkbox" className="accent-green-600" />
-                <span>IA</span>
-              </label>
-
-              <label className="flex items-center gap-2">
-                <input type="checkbox" className="accent-green-600" />
-                <span>DevOps</span>
-              </label>
-
-              <label className="flex items-center gap-2">
-                <input type="checkbox" className="accent-green-600" />
-                <span>Design Inclusivo</span>
-              </label>
-
-              <label className="flex items-center gap-2">
-                <input type="checkbox" className="accent-green-600" />
-                <span>Psicologia Cognitiva</span>
-              </label>
-
-              <label className="flex items-center gap-2">
-                <input type="checkbox" className="accent-green-600" />
-                <span>Machine Learning</span>
-              </label>
-
-              <label className="flex items-center gap-2">
-                <input type="checkbox" className="accent-green-600" />
-                <span>Estatística</span>
-              </label>
-
-              <label className="flex items-center gap-2">
-                <input type="checkbox" className="accent-green-600" />
-                <span>Automação</span>
-              </label>
-
-              <label className="flex items-center gap-2">
-                <input type="checkbox" className="accent-green-600" />
-                <span>Cloud Native</span>
-              </label>
-
-              <label className="flex items-center gap-2">
-                <input type="checkbox" className="accent-green-600" />
-                <span>Deep Learning</span>
-              </label>
-
-              <label className="flex items-center gap-2">
-                <input type="checkbox" className="accent-green-600" />
-                <span>NLP</span>
-              </label>
-
-              <label className="flex items-center gap-2">
-                <input type="checkbox" className="accent-green-600" />
-                <span>Educação</span>
-              </label>
-
-              <label className="flex items-center gap-2">
-                <input type="checkbox" className="accent-green-600" />
-                <span>Psicologia Comportamental</span>
-              </label>
-
-              <label className="flex items-center gap-2">
-                <input type="checkbox" className="accent-green-600" />
-                <span>Growth</span>
-              </label>
-
-              <label className="flex items-center gap-2">
-                <input type="checkbox" className="accent-green-600" />
-                <span>Branding</span>
-              </label>
-
-              <label className="flex items-center gap-2">
-                <input type="checkbox" className="accent-green-600" />
-                <span>Mobile First</span>
-              </label>
-
-              <label className="flex items-center gap-2">
-                <input type="checkbox" className="accent-green-600" />
-                <span>Arquitetura Limpa</span>
-              </label>
-
-              <label className="flex items-center gap-2">
-                <input type="checkbox" className="accent-green-600" />
-                <span>Arquitetura de Software</span>
-              </label>
-
-              <label className="flex items-center gap-2">
-                <input type="checkbox" className="accent-green-600" />
-                <span>SRE</span>
-              </label>
+              {[
+                "IA", "DevOps", "Design Inclusivo", "Psicologia Cognitiva",
+                "Machine Learning", "Estatística", "Automação", "Cloud Native",
+                "Deep Learning", "NLP", "Educação", "Psicologia Comportamental",
+                "Growth", "Branding", "Mobile First", "Arquitetura Limpa",
+                "Arquitetura de Software", "SRE"
+              ].map((int) => (
+                <label key={int} className="flex items-center gap-2">
+                  <input
+                    type="checkbox"
+                    value={int}
+                    className="accent-green-600"
+                    onChange={(e) => atualizar(e, interessesSelecionados, setInteressesSelecionados)}
+                  />
+                  <span>{int}</span>
+                </label>
+              ))}
             </div>
           </section>
 
