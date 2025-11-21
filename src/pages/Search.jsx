@@ -11,7 +11,7 @@ function Search() {
     <main className="px-10 py-6 text-gray-900 dark:text-gray-100">
       <div className="mb-8">
         <h1 className="text-2xl font-bold text-green-600 dark:text-green-400">Encontre talentos na Toopus</h1>
-        <p className="text-sm text-gray-500 dark:text-gray-300 mt-1">Filtre por áreas, idiomas ou interesses.</p>
+        <p className="text-sm text-gray-500 dark:text-gray-300 mt-1">Use filtros por área, idioma ou estado para encontrar o perfil ideal.</p>
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-4 gap-10">

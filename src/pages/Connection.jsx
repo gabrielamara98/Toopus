@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import dados from "../data/usersDetail.json";
 import Card from "../components/Card";
+import { Link } from "react-router-dom";
 
 function Connection() {
   const [connectedUsers, setConnectedUsers] = useState([]);
@@ -52,7 +53,7 @@ function Connection() {
 
       {connectedUsers.length === 0 ? (
         <div className="mt-10">
-          <p className="text-md text-gray-600 dark:text-gray-400 leading-relaxed">Você ainda não se conectou com ninguém. Vá até a página{" "}<span className="font-semibold text-green-600 dark:text-green-400">Search</span>{" "}e clique em <span className="font-semibold">“Conectar”</span> nos perfis que você gostar.</p>
+          <p className="text-md text-gray-600 dark:text-gray-400 leading-relaxed">Você ainda não se conectou com ninguém. Vá até a página{" "}<Link to="/search" className="font-semibold text-green-600 dark:text-green-400 underline hover:text-green-500 dark:hover:text-green-300 transition-colors">Search</Link>{" "}e clique em <span className="font-semibold">“Conectar”</span> nos perfis que você gostar.</p>
         </div>
       ) : (
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 w-full">
