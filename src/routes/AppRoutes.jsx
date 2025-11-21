@@ -3,6 +3,7 @@ import RootLayout from "../pages/RootLayout";
 import Home from "../pages/Home";
 import Search from "../pages/Search";
 import Recomendar from "../pages/Recomendar";
+import Conectar from "../pages/Conectar";
 
 export const router = createBrowserRouter([
   {
@@ -12,6 +13,7 @@ export const router = createBrowserRouter([
       { index: true, element: <Home /> },
       { path: "search", element: <Search /> },
       { path: "recomendar/:id", element: <Recomendar /> },
+      { path: "conectar", element: <Conectar /> },
     ],
   },
 ]);
