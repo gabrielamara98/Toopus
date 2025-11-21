@@ -2,7 +2,7 @@ import { useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import dados from "../data/usersDetail.json";
 
-function Recomendar() {
+function Recommend() {
   const { id } = useParams();
   const navigate = useNavigate();
 
@@ -76,4 +76,4 @@ function Recomendar() {
   );
 }
 
-export default Recomendar;
+export default Recommend;
