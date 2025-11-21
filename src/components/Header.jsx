@@ -4,16 +4,21 @@ import { FaMoon, FaSun, FaSearch, FaUserFriends } from "react-icons/fa";
 import { IoHome } from "react-icons/io5";
 
 function Header() {
-  const [dark, setDark] = useState(
-    localStorage.getItem("theme") === "dark"
-  );
+  // Lê o tema salvo no localStorage ao iniciar
+  const [dark, setDark] = useState(() => {
+    if (typeof window === "undefined") return false;
+    return localStorage.getItem("theme") === "dark";
+  });
 
+  // Aplica a classe .dark no <html> sempre que o estado mudar
   useEffect(() => {
+    const root = document.documentElement;
+
     if (dark) {
-      document.documentElement.classList.add("dark");
+      root.classList.add("dark");
       localStorage.setItem("theme", "dark");
     } else {
-      document.documentElement.classList.remove("dark");
+      root.classList.remove("dark");
       localStorage.setItem("theme", "light");
     }
   }, [dark]);
@@ -56,7 +61,7 @@ function Header() {
             </Link>
           </li>
 
-          {/* Toggle de tema */}
+          {/* Toggle animado de tema */}
           <li className="pl-6 ml-4 border-l border-gray-200 dark:border-gray-700">
             <button
               type="button"
@@ -70,9 +75,9 @@ function Header() {
                 }`}
               >
                 {dark ? (
-                  <FaMoon className="text-yellow-300" />
+                  <FaMoon className="text-green-400" />
                 ) : (
-                  <FaSun className="text-yellow-400" />
+                  <FaSun className="text-green-400" />
                 )}
               </span>
             </button>

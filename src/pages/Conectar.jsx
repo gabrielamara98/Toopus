@@ -44,8 +44,7 @@ function Conectar() {
   }
 
   return (
-    <main className="px-10 py-10 bg-white dark:bg-gray-900 min-h-screen">
-
+    <main className="px-10 py-10 min-h-screen">
       <div className="mb-8">
         <h1 className="text-3xl font-bold text-green-600 dark:text-green-400">
           Pessoas que você se conectou
@@ -59,7 +58,9 @@ function Conectar() {
         <div className="mt-10">
           <p className="text-md text-gray-600 dark:text-gray-400 leading-relaxed">
             Você ainda não se conectou com ninguém. Vá até a página{" "}
-            <span className="font-semibold text-green-600 dark:text-green-400">Search</span>{" "}
+            <span className="font-semibold text-green-600 dark:text-green-400">
+              Search
+            </span>{" "}
             e clique em <span className="font-semibold">“Conectar”</span> nos perfis que você gostar.
           </p>
         </div>

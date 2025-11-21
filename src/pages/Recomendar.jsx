@@ -41,7 +41,7 @@ function Recomendar() {
   }
 
   return (
-    <main className="flex justify-center px-4 py-10 bg-white dark:bg-gray-900">
+    <main className="flex justify-center px-4 py-10 bg-gray dark:bg-gray-900">
       <div className="w-full max-w-3xl bg-white dark:bg-gray-800 rounded-3xl shadow-md px-8 py-8">
 
         {/* TÍTULO + FOTO */}
