@@ -1,16 +1,34 @@
 import { useState, useEffect } from "react";
-import { Dialog, DialogBackdrop, DialogPanel, DialogTitle } from '@headlessui/react'
+import { Dialog, DialogBackdrop, DialogPanel, DialogTitle } from "@headlessui/react";
 import { useNavigate } from "react-router-dom";
 
-function Modal({open, setOpen, id, nome, foto, cargo, resumo, localizacao, area, habilidadesTecnicas, softSkills, experiencias, formacao, projetos, certificacoes, idiomas, areaInteresses, onConnectionChange,}) {
-
+function Modal({
+  open,
+  setOpen,
+  id,
+  nome,
+  foto,
+  cargo,
+  resumo,
+  localizacao,
+  area,
+  habilidadesTecnicas,
+  softSkills,
+  experiencias,
+  formacao,
+  projetos,
+  certificacoes,
+  idiomas,
+  areaInteresses,
+  onConnectionChange,
+}) {
   const navigate = useNavigate();
   const [recomendacoes, setRecomendacoes] = useState([]);
   const [isConnected, setIsConnected] = useState(false);
 
   useEffect(() => {
     if (!id) return;
-    
+
     const storageKey = `recomendacoes_${id}`;
     const armazenadas = localStorage.getItem(storageKey);
 
@@ -55,7 +73,7 @@ function Modal({open, setOpen, id, nome, foto, cargo, resumo, localizacao, area,
     let newStatus;
 
     if (isConnected) {
-      const novaLista = lista.filter(item => item !== numericId);
+      const novaLista = lista.filter((item) => item !== numericId);
       localStorage.setItem(key, JSON.stringify(novaLista));
       newStatus = false;
     } else {
@@ -81,26 +99,36 @@ function Modal({open, setOpen, id, nome, foto, cargo, resumo, localizacao, area,
   return (
     <div>
       <Dialog open={open} onClose={setOpen} className="relative z-10">
-        <DialogBackdrop transition className="fixed inset-0 bg-gray-900/50 transition-opacity data-closed:opacity-0 data-enter:duration-300 data-enter:ease-out data-leave:duration-200 data-leave:ease-in"/>
+        <DialogBackdrop
+          transition
+          className="fixed inset-0 bg-gray-900/60 transition-opacity data-closed:opacity-0 data-enter:duration-300 data-enter:ease-out data-leave:duration-200 data-leave:ease-in"
+        />
 
         <div className="fixed inset-0 z-10 w-screen overflow-y-auto">
           <div className="flex min-h-full items-center justify-center p-4 text-center">
-
-            <DialogPanel transition className="relative transform overflow-hidden rounded-3xl bg-white text-left shadow-2xl transition-all data-closed:translate-y-4 data-closed:opacity-0 data-enter:duration-300 data-enter:ease-out data-leave:duration-200 data-leave:ease-in sm:my-8 sm:w-full sm:max-w-3xl data-closed:sm:translate-y-0 data-closed:sm:scale-95">
-
-              <div className="px-6 py-6 sm:px-8 sm:py-8 dark:bg-gray-800">
+            <DialogPanel
+              transition
+              className="relative transform overflow-hidden rounded-3xl bg-white dark:bg-gray-900 text-left text-gray-900 dark:text-gray-100 shadow-2xl transition-all data-closed:translate-y-4 data-closed:opacity-0 data-enter:duration-300 data-enter:ease-out data-leave:duration-200 data-leave:ease-in sm:my-8 sm:w-full sm:max-w-3xl data-closed:sm:translate-y-0 data-closed:sm:scale-95"
+            >
+              {/* CONTEÚDO */}
+              <div className="px-6 py-6 sm:px-8 sm:py-8 dark:bg-gray-900">
                 <div className="flex flex-col sm:flex-row gap-8">
-
+                  {/* COLUNA ESQUERDA */}
                   <div className="flex flex-col items-center sm:items-start gap-4 sm:w-1/3">
                     <div className="w-32 h-32 rounded-full overflow-hidden border-4 border-green-500 shadow-md">
                       <img className="w-full h-full object-cover" src={foto} alt={nome} />
                     </div>
 
                     <div className="text-center sm:text-left">
-                      <DialogTitle as="h3" className="text-xl font-semibold text-gray-900">{nome}</DialogTitle>
-                      <p className="text-sm text-gray-600 mt-1">{cargo}</p>
-                      <p className="text-xs text-gray-500 mt-1">{localizacao}</p>
-                      <p className="text-xs text-gray-500">{area}</p>
+                      <DialogTitle
+                        as="h3"
+                        className="text-xl font-semibold text-gray-900 dark:text-gray-100"
+                      >
+                        {nome}
+                      </DialogTitle>
+                      <p className="text-sm text-gray-600 dark:text-gray-300 mt-1">{cargo}</p>
+                      <p className="text-xs text-gray-500 dark:text-gray-400 mt-1">{localizacao}</p>
+                      <p className="text-xs text-gray-500 dark:text-gray-400">{area}</p>
                     </div>
 
                     {habilidadesTecnicas && habilidadesTecnicas.length > 0 && (
@@ -108,7 +136,8 @@ function Modal({open, setOpen, id, nome, foto, cargo, resumo, localizacao, area,
                         {habilidadesTecnicas.map((habilidade) => (
                           <span
                             key={habilidade}
-                            className="px-3 py-1 rounded-full bg-green-100 text-green-700 border border-green-300 text-xs">
+                            className="px-3 py-1 rounded-full bg-green-100 text-green-700 border border-green-300 text-xs dark:bg-green-900/40 dark:text-green-300 dark:border-green-500"
+                          >
                             {habilidade}
                           </span>
                         ))}
@@ -116,23 +145,30 @@ function Modal({open, setOpen, id, nome, foto, cargo, resumo, localizacao, area,
                     )}
                   </div>
 
+                  {/* COLUNA DIREITA SCROLLÁVEL */}
                   <div className="sm:w-2/3 max-h-[60vh] overflow-y-auto pr-1 space-y-4">
-
                     {resumo && (
                       <section>
-                        <h4 className="text-xl font-semibold text-gray-800 mb-1">Sobre</h4>
-                        <p className="text-sm text-gray-700 leading-relaxed">{resumo}</p>
+                        <h4 className="text-xl font-semibold text-gray-800 dark:text-gray-100 mb-1">
+                          Sobre
+                        </h4>
+                        <p className="text-sm text-gray-700 dark:text-gray-300 leading-relaxed">
+                          {resumo}
+                        </p>
                       </section>
                     )}
 
                     {softSkills && softSkills.length > 0 && (
                       <section>
-                        <h4 className="text-xl font-semibold text-gray-800 mb-1">Soft skills</h4>
+                        <h4 className="text-xl font-semibold text-gray-800 dark:text-gray-100 mb-1">
+                          Soft skills
+                        </h4>
                         <ul className="flex flex-wrap gap-2">
                           {softSkills.map((soft) => (
                             <li
                               key={soft}
-                              className="px-3 py-1 rounded-full bg-green-50 text-green-800 border border-green-200 text-xs">
+                              className="px-3 py-1 rounded-full bg-green-50 text-green-800 border border-green-200 text-xs dark:bg-green-900/40 dark:text-green-300 dark:border-green-500"
+                            >
                               {soft}
                             </li>
                           ))}
@@ -142,12 +178,19 @@ function Modal({open, setOpen, id, nome, foto, cargo, resumo, localizacao, area,
 
                     {experiencias && experiencias.length > 0 && (
                       <section>
-                        <h4 className="text-xl font-semibold text-gray-800 mb-1">Experiências</h4>
+                        <h4 className="text-xl font-semibold text-gray-800 dark:text-gray-100 mb-1">
+                          Experiências
+                        </h4>
                         <div className="space-y-3">
                           {experiencias.map((xp, index) => (
-                            <div key={index} className="rounded-xl bg-gray-50 px-3 py-2 text-sm text-gray-800">
+                            <div
+                              key={index}
+                              className="rounded-xl bg-gray-50 dark:bg-gray-800 px-3 py-2 text-sm text-gray-800 dark:text-gray-100"
+                            >
                               <p className="font-semibold text-lg">{xp.empresa}</p>
-                              <p className="text-xs text-gray-600">{xp.cargo} • {xp.inicio} - {xp.fim}</p>
+                              <p className="text-xs text-gray-600 dark:text-gray-300">
+                                {xp.cargo} • {xp.inicio} - {xp.fim}
+                              </p>
                               <p className="mt-1">{xp.descricao}</p>
                             </div>
                           ))}
@@ -157,12 +200,16 @@ function Modal({open, setOpen, id, nome, foto, cargo, resumo, localizacao, area,
 
                     {formacao && formacao.length > 0 && (
                       <section>
-                        <h4 className="text-xl font-semibold text-gray-800 mb-1">Formação</h4>
-                        <div className="space-y-2 text-sm text-gray-800">
+                        <h4 className="text-xl font-semibold text-gray-800 dark:text-gray-100 mb-1">
+                          Formação
+                        </h4>
+                        <div className="space-y-2 text-sm text-gray-800 dark:text-gray-100">
                           {formacao.map((f, index) => (
                             <div key={index}>
                               <p className="font-semibold text-base">{f.curso}</p>
-                              <p className="text-xs text-gray-600">{f.instituicao} • {f.ano}</p>
+                              <p className="text-xs text-gray-600 dark:text-gray-300">
+                                {f.instituicao} • {f.ano}
+                              </p>
                             </div>
                           ))}
                         </div>
@@ -171,15 +218,24 @@ function Modal({open, setOpen, id, nome, foto, cargo, resumo, localizacao, area,
 
                     {projetos && projetos.length > 0 && (
                       <section>
-                        <h4 className="text-xl font-semibold text-gray-800 mb-1">Projetos</h4>
-                        <div className="space-y-2 text-sm text-gray-800">
+                        <h4 className="text-xl font-semibold text-gray-800 dark:text-gray-100 mb-1">
+                          Projetos
+                        </h4>
+                        <div className="space-y-2 text-sm text-gray-800 dark:text-gray-100">
                           {projetos.map((pro, index) => (
-                            <div key={index} className="rounded-xl bg-gray-50 px-3 py-2">
+                            <div
+                              key={index}
+                              className="rounded-xl bg-gray-50 dark:bg-gray-800 px-3 py-2"
+                            >
                               <p className="font-semibold">{pro.titulo}</p>
                               {pro.link && (
-                                <p className="text-xs text-green-700 break-all">{pro.link}</p>
+                                <p className="text-xs text-green-700 dark:text-green-300 break-all">
+                                  {pro.link}
+                                </p>
                               )}
-                              <p className="text-xs mt-1">{pro.descricao}</p>
+                              <p className="text-xs mt-1 text-gray-700 dark:text-gray-300">
+                                {pro.descricao}
+                              </p>
                             </div>
                           ))}
                         </div>
@@ -188,8 +244,10 @@ function Modal({open, setOpen, id, nome, foto, cargo, resumo, localizacao, area,
 
                     {certificacoes && certificacoes.length > 0 && (
                       <section>
-                        <h4 className="text-xl font-semibold text-gray-800 mb-1">Certificações</h4>
-                        <ul className="list-disc list-inside text-sm text-gray-800">
+                        <h4 className="text-xl font-semibold text-gray-800 dark:text-gray-100 mb-1">
+                          Certificações
+                        </h4>
+                        <ul className="list-disc list-inside text-sm text-gray-800 dark:text-gray-100">
                           {certificacoes.map((c, index) => (
                             <li key={index}>{c}</li>
                           ))}
@@ -199,8 +257,10 @@ function Modal({open, setOpen, id, nome, foto, cargo, resumo, localizacao, area,
 
                     {idiomas && idiomas.length > 0 && (
                       <section>
-                        <h4 className="text-xl font-semibold text-gray-800 mb-1">Idiomas</h4>
-                        <div className="space-y-1 text-sm text-gray-800">
+                        <h4 className="text-xl font-semibold text-gray-800 dark:text-gray-100 mb-1">
+                          Idiomas
+                        </h4>
+                        <div className="space-y-1 text-sm text-gray-800 dark:text-gray-100">
                           {idiomas.map((idio, index) => (
                             <p key={index}>
                               <span className="font-semibold">{idio.idioma}:</span> {idio.nivel}
@@ -212,12 +272,15 @@ function Modal({open, setOpen, id, nome, foto, cargo, resumo, localizacao, area,
 
                     {areaInteresses && areaInteresses.length > 0 && (
                       <section>
-                        <h4 className="text-xl font-semibold text-gray-800 mb-1">Áreas de interesse</h4>
+                        <h4 className="text-xl font-semibold text-gray-800 dark:text-gray-100 mb-1">
+                          Áreas de interesse
+                        </h4>
                         <ul className="flex flex-wrap gap-2">
                           {areaInteresses.map((areaItem) => (
                             <li
                               key={areaItem}
-                              className="px-3 py-1 rounded-full bg-green-50 text-green-800 border border-green-200 text-xs">
+                              className="px-3 py-1 rounded-full bg-green-50 text-green-800 border border-green-200 text-xs dark:bg-green-900/40 dark:text-green-300 dark:border-green-500"
+                            >
                               {areaItem}
                             </li>
                           ))}
@@ -227,13 +290,20 @@ function Modal({open, setOpen, id, nome, foto, cargo, resumo, localizacao, area,
 
                     {recomendacoes.length > 0 && (
                       <section className="mt-4">
-                        <h4 className="text-xl font-semibold text-gray-800 mb-1">Recomendações</h4>
+                        <h4 className="text-xl font-semibold text-gray-800 dark:text-gray-100 mb-1">
+                          Recomendações
+                        </h4>
                         <div className="space-y-3">
                           {recomendacoes.map((rec, index) => (
-                            <div key={index} className="rounded-xl bg-gray-50 px-3 py-2 text-sm text-gray-800">
+                            <div
+                              key={index}
+                              className="rounded-xl bg-gray-50 dark:bg-gray-800 px-3 py-2 text-sm text-gray-800 dark:text-gray-100"
+                            >
                               <p className="font-semibold text-lg">{rec.titulo}</p>
                               <p className="mt-1 text-sm">{rec.mensagem}</p>
-                              <p className="mt-1 text-[11px] text-gray-400">Recomendação anônima</p>
+                              <p className="mt-1 text-[11px] text-gray-400">
+                                Recomendação anônima
+                              </p>
                             </div>
                           ))}
                         </div>
@@ -243,15 +313,15 @@ function Modal({open, setOpen, id, nome, foto, cargo, resumo, localizacao, area,
                 </div>
               </div>
 
-              <div className="bg-gray-50 px-6 py-4 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
+              {/* FOOTER */}
+              <div className="bg-gray-50 dark:bg-gray-900/95 px-6 py-4 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 border-t border-gray-200 dark:border-gray-700">
                 <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 w-full sm:w-auto">
-
                   <button
                     onClick={handleConectar}
                     className={`flex-1 rounded-full border px-4 py-2 text-sm font-medium transition-all cursor-pointer ${
                       isConnected
                         ? "border-green-600 bg-green-600 text-white hover:bg-green-500"
-                        : "border-green-600 text-green-700 hover:bg-green-600 hover:text-white"
+                        : "border-green-600 text-green-700 hover:bg-green-600 hover:text-white dark:border-green-400 dark:text-green-300 dark:hover:bg-green-500 dark:hover:text-gray-900"
                     }`}
                   >
                     {isConnected ? "Conectado" : "Conectar"}
@@ -259,13 +329,19 @@ function Modal({open, setOpen, id, nome, foto, cargo, resumo, localizacao, area,
 
                   <button
                     onClick={handleRecomendar}
-                    className="flex-1 rounded-full border border-green-600 text-green-700 px-4 py-2 text-sm font-medium hover:bg-green-600 hover:text-white transition-all cursor-pointer">Recomendar</button>
+                    className="flex-1 rounded-full border border-green-600 text-green-700 px-4 py-2 text-sm font-medium hover:bg-green-600 hover:text-white transition-all cursor-pointer dark:border-green-400 dark:text-green-300 dark:hover:bg-green-500 dark:hover:text-gray-900"
+                  >
+                    Recomendar
+                  </button>
                 </div>
 
                 <button
                   type="button"
                   onClick={() => setOpen(false)}
-                  className="inline-flex justify-center rounded-full bg-red-500 px-4 py-2 text-sm font-semibold text-white hover:bg-red-400 cursor-pointer">Sair</button>
+                  className="inline-flex justify-center rounded-full bg-red-500 px-4 py-2 text-sm font-semibold text-white hover:bg-red-400 cursor-pointer"
+                >
+                  Sair
+                </button>
               </div>
             </DialogPanel>
           </div>
