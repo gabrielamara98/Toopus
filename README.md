@@ -8,9 +8,11 @@ Desenvolver uma aplicação web interativa utilizando HTML, Tailwind CSS e React
 - Design responsivo e moderno, utilizando Tailwind CSS.
 - Integração com JSON local, contendo pelo menos 60 perfis simulados
 - Dark Mode
+- Fazer recomendações no perfil dos profissionais
+- Adicionar profissionais para conectar
 
 ## 👀 Como acessar o projeto?
-Para poder acessar o projeto utilize deste link para acessar o site via Vercel ou clone o repositorio e rode os comandos ***npm -i*** e ***npm run dev***
+Para poder acessar o projeto utilize deste [link](https://toopus.vercel.app/) para acessar o site via Vercel ou clone o repositorio e rode os comandos ***npm -i*** e ***npm run dev***
 ## 🧰 Tecnologias Utilizadas
 - Linguagem de marcação: HTML5
 - Linguagem de estilo: CSS3
@@ -29,7 +31,12 @@ Para poder acessar o projeto utilize deste link para acessar o site via Vercel o
     </td>
     <td>
       <ul>
-        <li></li>
+        <li>Dark Mode</li>
+        <li>Função Conectar</li>
+        <li>Função Recomendar</li>
+        <li>Sistema de Filtro</li>
+        <li>Seção Conexões</li>
+        <li>Revisão de Código</li>
       </ul>
     </td>
   </tr>
@@ -39,8 +46,12 @@ Para poder acessar o projeto utilize deste link para acessar o site via Vercel o
     </td>
     <td>
       <ul>
-        <li></li>
-        <li></li>
+        <li>Readme</li>
+        <li>Repositorio e gerenciamento de bibliotecas</li>
+        <li>Card Profissional</li>
+        <li>Modal profissional</li>
+        <li>JSON</li>
+        <li>Sistema de Busca</li>
       </ul>
     </td>
   </tr>
