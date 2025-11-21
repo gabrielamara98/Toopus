@@ -37,7 +37,7 @@ onConnectionChange,}) {
     }
   }, [id]);
 
-  function handleConectar() {
+  function handleConnection() {
     const key = "connections";
     const numericId = Number(id);
     let lista = [];
@@ -227,7 +227,7 @@ onConnectionChange,}) {
 
               <div className="bg-gray-50 dark:bg-gray-900/95 px-6 py-4 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 border-t border-gray-200 dark:border-gray-700">
                 <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 w-full sm:w-auto">
-                  <button onClick={handleConectar} className={`flex-1 rounded-full border px-4 py-2 text-sm font-medium transition-all cursor-pointer ${
+                  <button onClick={handleConnection} className={`flex-1 rounded-full border px-4 py-2 text-sm font-medium transition-all cursor-pointer ${
                     isConnected
                         ? "border-green-600 bg-green-600 text-white hover:bg-green-500"
                         : "border-green-600 text-green-700 hover:bg-green-600 hover:text-white dark:border-green-400 dark:text-green-300 dark:hover:bg-green-500 dark:hover:text-gray-900"
