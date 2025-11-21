@@ -1,8 +1,7 @@
-import CardItem from "../components/CardItem"
+import CardItem from "../components/CardItem";
 
-function Card({item}) {
-  return <CardItem items ={item}/>
-  
+function Card({ item, onConnectionChange }) {
+  return <CardItem items={item} onConnectionChange={onConnectionChange} />;
 }
 
 export default Card
