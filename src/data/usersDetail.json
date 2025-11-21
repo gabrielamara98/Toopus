@@ -401,5 +401,1877 @@
       { "idioma": "Espanhol", "nivel": "Básico" }
     ],
     "areaInteresses": ["Mobile First", "Arquitetura Limpa"]
-  }
+  },
+
+  {
+  "id": 11,
+  "nome": "Karina Baptista",
+  "foto": "https://images.pexels.com/photos/34815171/pexels-photo-34815171.jpeg",
+  "cargo": "Fisioterapeuta",
+  "resumo": "Atua com reabilitação física e prevenção de lesões em ambiente clínico.",
+  "localizacao": "São Paulo/SP",
+  "area": "Saúde",
+  "habilidadesTecnicas": ["Fisioterapia Ortopédica", "Avaliação Postural", "Reabilitação"],
+  "softSkills": ["Empatia", "Atenção aos Detalhes"],
+  "experiencias": [
+    {
+      "empresa": "Clínica Movimento",
+      "cargo": "Fisioterapeuta",
+      "inicio": "2020-03",
+      "fim": "2024-02",
+      "descricao": "Atendimento a pacientes com lesões musculoesqueléticas e acompanhamento de reabilitação."
+    }
+  ],
+  "formacao": [
+    {
+      "curso": "Fisioterapia",
+      "instituicao": "Universidade São Judas",
+      "ano": 2019
+    }
+  ],
+  "projetos": [
+    {
+      "titulo": "Programa de Ergonomia Corporativa",
+      "link": "https://example.com/projeto11",
+      "descricao": "Programa de orientação postural para colaboradores em escritório."
+    }
+  ],
+  "certificacoes": ["Pilates Clínico"],
+  "idiomas": [{ "idioma": "Inglês", "nivel": "Básico" }],
+  "areaInteresses": ["Ergonomia", "Reabilitação Esportiva"]
+},
+{
+  "id": 12,
+  "nome": "Lucas Brito",
+  "foto": "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg",
+  "cargo": "Engenheiro de Software",
+  "resumo": "Focado em arquitetura limpa e boas práticas.",
+  "localizacao": "Brasília/DF",
+  "area": "Desenvolvimento",
+  "habilidadesTecnicas": ["Java", "Spring", "Docker"],
+  "softSkills": ["Trabalho em Equipe", "Comunicação"],
+  "experiencias": [
+    {
+      "empresa": "DevNation",
+      "cargo": "Software Engineer",
+      "inicio": "2019-01",
+      "fim": "2024-03",
+      "descricao": "Construção de APIs escaláveis."
+    }
+  ],
+  "formacao": [
+    {
+      "curso": "Engenharia de Software",
+      "instituicao": "UnB",
+      "ano": 2018
+    }
+  ],
+  "projetos": [
+    {
+      "titulo": "API de Agendamentos",
+      "link": "https://example.com/projeto12",
+      "descricao": "API REST com autenticação JWT."
+    }
+  ],
+  "certificacoes": ["Oracle Java SE 11"],
+  "idiomas": [{ "idioma": "Inglês", "nivel": "Avançado" }],
+  "areaInteresses": ["Arquitetura Limpa", "SRE"]
+},
+{
+  "id": 13,
+  "nome": "Mirella Duarte",
+  "foto": "https://images.pexels.com/photos/34809939/pexels-photo-34809939.jpeg",
+  "cargo": "Professora de Educação Infantil",
+  "resumo": "Desenvolve atividades lúdicas focadas em aprendizagem e desenvolvimento socioemocional.",
+  "localizacao": "Campinas/SP",
+  "area": "Educação",
+  "habilidadesTecnicas": ["Planejamento Pedagógico", "Psicopedagogia", "Contação de Histórias"],
+  "softSkills": ["Paciência", "Empatia"],
+  "experiencias": [
+    {
+      "empresa": "Colégio Mundo Criança",
+      "cargo": "Professora",
+      "inicio": "2019-02",
+      "fim": "2024-01",
+      "descricao": "Planejamento de atividades e acompanhamento do desenvolvimento das crianças."
+    }
+  ],
+  "formacao": [
+    {
+      "curso": "Pedagogia",
+      "instituicao": "SENAC",
+      "ano": 2018
+    }
+  ],
+  "projetos": [
+    {
+      "titulo": "Projeto Leitura Divertida",
+      "link": "https://example.com/projeto13",
+      "descricao": "Programa de incentivo à leitura com atividades semanais."
+    }
+  ],
+  "certificacoes": ["Psicopedagogia Institucional"],
+  "idiomas": [{ "idioma": "Inglês", "nivel": "Básico" }],
+  "areaInteresses": ["Educação Infantil", "Desenvolvimento Socioemocional"]
+},
+{
+  "id": 14,
+  "nome": "Tiago Carvalho",
+  "foto": "https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg",
+  "cargo": "Full-stack Developer",
+  "resumo": "Desenvolvedor com foco em sistemas completos e APIs robustas.",
+  "localizacao": "Rio de Janeiro/RJ",
+  "area": "Desenvolvimento",
+  "habilidadesTecnicas": ["Node.js", "React", "MongoDB"],
+  "softSkills": ["Proatividade", "Liderança"],
+  "experiencias": [
+    {
+      "empresa": "DevHouse",
+      "cargo": "Full-stack",
+      "inicio": "2020-03",
+      "fim": "2024-02",
+      "descricao": "Construção de módulos web completos."
+    }
+  ],
+  "formacao": [
+    {
+      "curso": "Ciência da Computação",
+      "instituicao": "UFRJ",
+      "ano": 2019
+    }
+  ],
+  "projetos": [
+    {
+      "titulo": "Plataforma de Tarefas",
+      "link": "https://example.com/projeto14",
+      "descricao": "Sistema de gestão colaborativa."
+    }
+  ],
+  "certificacoes": [],
+  "idiomas": [{ "idioma": "Inglês", "nivel": "Avançado" }],
+  "areaInteresses": ["Engenharia de Software", "Cloud"]
+},
+{
+  "id": 15,
+  "nome": "Patrícia Mendes",
+  "foto": "https://images.pexels.com/photos/34817463/pexels-photo-34817463.jpeg",
+  "cargo": "Psicóloga Organizacional",
+  "resumo": "Atua com clima organizacional, desenvolvimento de lideranças e saúde mental no trabalho.",
+  "localizacao": "Curitiba/PR",
+  "area": "RH",
+  "habilidadesTecnicas": ["Entrevistas por Competência", "Avaliação Psicológica", "Mediação de Conflitos"],
+  "softSkills": ["Liderança", "Escuta Ativa"],
+  "experiencias": [
+    {
+      "empresa": "AgileWorks",
+      "cargo": "Psicóloga Organizacional",
+      "inicio": "2020-01",
+      "fim": "2024-03",
+      "descricao": "Condução de programas de desenvolvimento e ações de bem-estar."
+    }
+  ],
+  "formacao": [
+    {
+      "curso": "Psicologia",
+      "instituicao": "UTFPR",
+      "ano": 2018
+    }
+  ],
+  "projetos": [
+    {
+      "titulo": "Programa de Saúde Mental",
+      "link": "https://example.com/projeto15",
+      "descricao": "Implementação de iniciativas de acolhimento psicológico para colaboradores."
+    }
+  ],
+  "certificacoes": ["Psicologia Organizacional e do Trabalho"],
+  "idiomas": [{ "idioma": "Inglês", "nivel": "Básico" }],
+  "areaInteresses": ["Saúde Mental", "Desenvolvimento de Lideranças"]
+},
+{
+  "id": 16,
+  "nome": "Rafael Azevedo",
+  "foto": "https://images.pexels.com/photos/1300402/pexels-photo-1300402.jpeg",
+  "cargo": "Data Engineer",
+  "resumo": "Desenvolve pipelines de dados e arquiteturas escaláveis.",
+  "localizacao": "São Paulo/SP",
+  "area": "Dados",
+  "habilidadesTecnicas": ["Python", "Spark", "AWS"],
+  "softSkills": ["Organização", "Análise Crítica"],
+  "experiencias": [
+    {
+      "empresa": "DataFlow",
+      "cargo": "Data Engineer",
+      "inicio": "2019-02",
+      "fim": "2024-01",
+      "descricao": "Criação de pipelines de dados e data lakes."
+    }
+  ],
+  "formacao": [
+    {
+      "curso": "Engenharia de Computação",
+      "instituicao": "USP",
+      "ano": 2018
+    }
+  ],
+  "projetos": [
+    {
+      "titulo": "Pipeline ETL",
+      "link": "https://example.com/projeto16",
+      "descricao": "ETLs otimizados para alto volume de dados."
+    }
+  ],
+  "certificacoes": ["AWS Data Engineer"],
+  "idiomas": [{ "idioma": "Inglês", "nivel": "Avançado" }],
+  "areaInteresses": ["Big Data", "Analytics"]
+},
+{
+  "id": 17,
+  "nome": "Larissa Costa",
+  "foto": "https://images.pexels.com/photos/34833414/pexels-photo-34833414.jpeg",
+  "cargo": "Nutricionista",
+  "resumo": "Atende pacientes com foco em reeducação alimentar e saúde preventiva.",
+  "localizacao": "Manaus/AM",
+  "area": "Saúde",
+  "habilidadesTecnicas": ["Avaliação Nutricional", "Elaboração de Cardápios", "Nutrição Clínica"],
+  "softSkills": ["Organização", "Comunicação"],
+  "experiencias": [
+    {
+      "empresa": "DigitalUp Saúde",
+      "cargo": "Nutricionista",
+      "inicio": "2021-06",
+      "fim": "2024-03",
+      "descricao": "Acompanhamento nutricional individual e palestras sobre alimentação saudável."
+    }
+  ],
+  "formacao": [
+    {
+      "curso": "Nutrição",
+      "instituicao": "UEA",
+      "ano": 2020
+    }
+  ],
+  "projetos": [
+    {
+      "titulo": "Programa Vida Leve",
+      "link": "https://example.com/projeto17",
+      "descricao": "Projeto de reeducação alimentar para colaboradores de empresas locais."
+    }
+  ],
+  "certificacoes": ["Nutrição Esportiva"],
+  "idiomas": [{ "idioma": "Inglês", "nivel": "Intermediário" }],
+  "areaInteresses": ["Saúde Preventiva", "Nutrição Esportiva"]
+},
+{
+  "id": 18,
+  "nome": "Vinicius Pereira",
+  "foto": "https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg",
+  "cargo": "DevOps Engineer",
+  "resumo": "Especialista em automação e observabilidade.",
+  "localizacao": "Porto Alegre/RS",
+  "area": "Infraestrutura",
+  "habilidadesTecnicas": ["Docker", "Prometheus", "Python"],
+  "softSkills": ["Trabalho em Equipe", "Pensamento Analítico"],
+  "experiencias": [
+    {
+      "empresa": "InfraPlus",
+      "cargo": "DevOps",
+      "inicio": "2020-03",
+      "fim": "2024-02",
+      "descricao": "Monitoramento, criação de pipelines e automações."
+    }
+  ],
+  "formacao": [
+    {
+      "curso": "Sistemas de Informação",
+      "instituicao": "PUC RS",
+      "ano": 2019
+    }
+  ],
+  "projetos": [
+    {
+      "titulo": "Observabilidade Full Stack",
+      "link": "https://example.com/projeto18",
+      "descricao": "Implementação de logs, métricas e traces."
+    }
+  ],
+  "certificacoes": ["AWS Practitioner"],
+  "idiomas": [{ "idioma": "Inglês", "nivel": "Básico" }],
+  "areaInteresses": ["Cloud Native", "SRE"]
+},
+{
+  "id": 19,
+  "nome": "Beatriz Lima",
+  "foto": "https://images.pexels.com/photos/34769635/pexels-photo-34769635.jpeg",
+  "cargo": "Advogada Trabalhista",
+  "resumo": "Especialista em direito do trabalho e relações entre empresas e colaboradores.",
+  "localizacao": "Salvador/BA",
+  "area": "Direito",
+  "habilidadesTecnicas": ["Direito do Trabalho", "Audiências", "Elaboração de Contratos"],
+  "softSkills": ["Comunicação", "Negociação"],
+  "experiencias": [
+    {
+      "empresa": "BizLegal",
+      "cargo": "Advogada Trabalhista",
+      "inicio": "2019-04",
+      "fim": "2024-01",
+      "descricao": "Atuação em processos trabalhistas e consultoria para empresas."
+    }
+  ],
+  "formacao": [
+    {
+      "curso": "Direito",
+      "instituicao": "UFBA",
+      "ano": 2018
+    }
+  ],
+  "projetos": [
+    {
+      "titulo": "Programa de Conscientização Trabalhista",
+      "link": "https://example.com/projeto19",
+      "descricao": "Palestras sobre direitos e deveres trabalhistas para equipes."
+    }
+  ],
+  "certificacoes": ["Mediação de Conflitos"],
+  "idiomas": [{ "idioma": "Inglês", "nivel": "Intermediário" }],
+  "areaInteresses": ["Compliance", "Direito Trabalhista"]
+},
+{
+  "id": 20,
+  "nome": "Gustavo Rocha",
+  "foto": "https://images.pexels.com/photos/1516680/pexels-photo-1516680.jpeg",
+  "cargo": "Cybersecurity Analyst",
+  "resumo": "Especialista em segurança ofensiva e defensiva.",
+  "localizacao": "Recife/PE",
+  "area": "Segurança",
+  "habilidadesTecnicas": ["Kali Linux", "Pentest", "Python"],
+  "softSkills": ["Detalhismo", "Raciocínio Lógico"],
+  "experiencias": [
+    {
+      "empresa": "SecureNet",
+      "cargo": "Analista de Segurança",
+      "inicio": "2020-01",
+      "fim": "2024-02",
+      "descricao": "Testes de invasão e mitigação de vulnerabilidades."
+    }
+  ],
+  "formacao": [
+    {
+      "curso": "Engenharia da Computação",
+      "instituicao": "UFPE",
+      "ano": 2019
+    }
+  ],
+  "projetos": [
+    {
+      "titulo": "Pentest Corporativo",
+      "link": "https://example.com/projeto20",
+      "descricao": "Análise de segurança em sistemas internos."
+    }
+  ],
+  "certificacoes": ["CEH"],
+  "idiomas": [{ "idioma": "Inglês", "nivel": "Avançado" }],
+  "areaInteresses": ["Cyber Defense", "Hacking Ético"]
+},
+{
+  "id": 21,
+  "nome": "Amanda Torres",
+  "foto": "https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg",
+  "cargo": "Professora Universitária",
+  "resumo": "Atua no ensino superior com foco em pesquisa e orientação de trabalhos acadêmicos.",
+  "localizacao": "São Luís/MA",
+  "area": "Educação",
+  "habilidadesTecnicas": ["Metodologia Científica", "Orientação Acadêmica", "Planejamento de Disciplina"],
+  "softSkills": ["Comunicação", "Organização"],
+  "experiencias": [
+    {
+      "empresa": "Universidade Federal do Maranhão",
+      "cargo": "Professora",
+      "inicio": "2021-03",
+      "fim": "2024-02",
+      "descricao": "Ministração de disciplinas e orientação de TCCs."
+    }
+  ],
+  "formacao": [
+    {
+      "curso": "Psicologia",
+      "instituicao": "UFMA",
+      "ano": 2020
+    }
+  ],
+  "projetos": [
+    {
+      "titulo": "Grupo de Estudos em Comportamento Humano",
+      "link": "https://example.com/projeto21",
+      "descricao": "Projeto de pesquisa com alunos de graduação e pós-graduação."
+    }
+  ],
+  "certificacoes": [],
+  "idiomas": [{ "idioma": "Inglês", "nivel": "Intermediário" }],
+  "areaInteresses": ["Pesquisa Acadêmica", "Didática"]
+},
+{
+  "id": 22,
+  "nome": "Otávio Ferreira",
+  "foto": "https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg",
+  "cargo": "Back-end Developer",
+  "resumo": "Experiência em APIs de alta performance.",
+  "localizacao": "Vitória/ES",
+  "area": "Desenvolvimento",
+  "habilidadesTecnicas": ["Node.js", "TypeScript", "PostgreSQL"],
+  "softSkills": ["Proatividade", "Comunicação"],
+  "experiencias": [
+    {
+      "empresa": "SoftCore",
+      "cargo": "Back-end",
+      "inicio": "2019-05",
+      "fim": "2024-01",
+      "descricao": "Desenvolvimento de APIs escaláveis."
+    }
+  ],
+  "formacao": [
+    {
+      "curso": "Sistemas de Informação",
+      "instituicao": "UFES",
+      "ano": 2018
+    }
+  ],
+  "projetos": [
+    {
+      "titulo": "API de Autenticação",
+      "link": "https://example.com/projeto22",
+      "descricao": "Autenticação com OAuth2 e JWT."
+    }
+  ],
+  "certificacoes": ["Node Developer"],
+  "idiomas": [{ "idioma": "Inglês", "nivel": "Intermediário" }],
+  "areaInteresses": ["Arquitetura", "Escalabilidade"]
+},
+{
+  "id": 23,
+  "nome": "Helena Tavares",
+  "foto": "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg",
+  "cargo": "Assistente Social",
+  "resumo": "Atua em projetos sociais, focada em vulnerabilidade e inclusão.",
+  "localizacao": "São Paulo/SP",
+  "area": "Serviço Social",
+  "habilidadesTecnicas": ["Atendimento Social", "Visitas Domiciliares", "Articulação de Rede"],
+  "softSkills": ["Empatia", "Comunicação"],
+  "experiencias": [
+    {
+      "empresa": "Instituto Talento",
+      "cargo": "Assistente Social",
+      "inicio": "2020-01",
+      "fim": "2024-02",
+      "descricao": "Atendimento a famílias em situação de vulnerabilidade e articulação com órgãos públicos."
+    }
+  ],
+  "formacao": [
+    {
+      "curso": "Serviço Social",
+      "instituicao": "Mackenzie",
+      "ano": 2019
+    }
+  ],
+  "projetos": [
+    {
+      "titulo": "Projeto Jovens em Ação",
+      "link": "https://example.com/projeto23",
+      "descricao": "Programa de inclusão social para jovens em situação de risco."
+    }
+  ],
+  "certificacoes": [],
+  "idiomas": [{ "idioma": "Inglês", "nivel": "Básico" }],
+  "areaInteresses": ["Políticas Públicas", "Direitos Humanos"]
+},
+{
+  "id": 24,
+  "nome": "Rodrigo Nascimento",
+  "foto": "https://images.pexels.com/photos/1680172/pexels-photo-1680172.jpeg",
+  "cargo": "SRE Engineer",
+  "resumo": "Monitoramento, confiabilidade e automações.",
+  "localizacao": "Belo Horizonte/MG",
+  "area": "Infraestrutura",
+  "habilidadesTecnicas": ["Linux", "Docker", "Grafana"],
+  "softSkills": ["Resolução de Problemas", "Comunicação"],
+  "experiencias": [
+    {
+      "empresa": "ScaleOps",
+      "cargo": "SRE",
+      "inicio": "2020-07",
+      "fim": "2024-01",
+      "descricao": "Melhoria de confiabilidade e gestão de incidentes."
+    }
+  ],
+  "formacao": [
+    {
+      "curso": "Engenharia de Computação",
+      "instituicao": "CEFET",
+      "ano": 2019
+    }
+  ],
+  "projetos": [
+    {
+      "titulo": "Alertas Inteligentes",
+      "link": "https://example.com/projeto24",
+      "descricao": "Sistema de alertas baseado em anomalias."
+    }
+  ],
+  "certificacoes": ["Linux LPI 1"],
+  "idiomas": [{ "idioma": "Inglês", "nivel": "Intermediário" }],
+  "areaInteresses": ["SRE", "Automação"]
+},
+{
+  "id": 25,
+  "nome": "Marina Alves",
+  "foto": "https://images.pexels.com/photos/1858175/pexels-photo-1858175.jpeg",
+  "cargo": "Arquiteta",
+  "resumo": "Desenvolve projetos residenciais e comerciais com foco em conforto e funcionalidade.",
+  "localizacao": "São Paulo/SP",
+  "area": "Arquitetura",
+  "habilidadesTecnicas": ["AutoCAD", "Revit", "Projeto Luminotécnico"],
+  "softSkills": ["Planejamento", "Criatividade"],
+  "experiencias": [
+    {
+      "empresa": "ProTech Arquitetura",
+      "cargo": "Arquiteta",
+      "inicio": "2018-09",
+      "fim": "2024-03",
+      "descricao": "Desenvolvimento de projetos executivos e acompanhamento de obras."
+    }
+  ],
+  "formacao": [
+    {
+      "curso": "Arquitetura e Urbanismo",
+      "instituicao": "FGV",
+      "ano": 2017
+    }
+  ],
+  "projetos": [
+    {
+      "titulo": "Residência Sustentável",
+      "link": "https://example.com/projeto25",
+      "descricao": "Projeto de casa com foco em iluminação natural e ventilação cruzada."
+    }
+  ],
+  "certificacoes": ["Design de Interiores"],
+  "idiomas": [{ "idioma": "Inglês", "nivel": "Avançado" }],
+  "areaInteresses": ["Arquitetura Sustentável", "Design de Interiores"]
+},
+{
+  "id": 26,
+  "nome": "Felipe Andrade",
+  "foto": "https://images.pexels.com/photos/1181391/pexels-photo-1181391.jpeg",
+  "cargo": "Mobile Developer",
+  "resumo": "Desenvolvedor focado em apps nativos e híbridos.",
+  "localizacao": "São Paulo/SP",
+  "area": "Desenvolvimento",
+  "habilidadesTecnicas": ["Kotlin", "Swift", "Flutter"],
+  "softSkills": ["Criatividade", "Resiliência"],
+  "experiencias": [
+    {
+      "empresa": "AppWorks",
+      "cargo": "Mobile Developer",
+      "inicio": "2020-02",
+      "fim": "2024-03",
+      "descricao": "Desenvolvimento de apps Android e iOS."
+    }
+  ],
+  "formacao": [
+    {
+      "curso": "Ciência da Computação",
+      "instituicao": "UFBA",
+      "ano": 2019
+    }
+  ],
+  "projetos": [
+    {
+      "titulo": "Aplicativo de streaming",
+      "link": "https://example.com/projeto26",
+      "descricao": "App multiplataforma para conteúdos de vídeo."
+    }
+  ],
+  "certificacoes": ["Android Developer NanoDegree"],
+  "idiomas": [
+    { "idioma": "Inglês", "nivel": "Avançado" },
+    { "idioma": "Espanhol", "nivel": "Básico" }
+  ],
+  "areaInteresses": ["Mobile First", "Arquitetura Limpa"]
+},
+{
+  "id": 27,
+  "nome": "Sofia Carvalho",
+  "foto": "https://images.pexels.com/photos/1065084/pexels-photo-1065084.jpeg",
+  "cargo": "Enfermeira",
+  "resumo": "Atua em unidades de internação com foco em cuidado humanizado.",
+  "localizacao": "Florianópolis/SC",
+  "area": "Saúde",
+  "habilidadesTecnicas": ["Assistência de Enfermagem", "Administração de Medicação", "Cuidados Pós-operatórios"],
+  "softSkills": ["Empatia", "Trabalho em Equipe"],
+  "experiencias": [
+    {
+      "empresa": "Hospital Vida",
+      "cargo": "Enfermeira",
+      "inicio": "2019-08",
+      "fim": "2024-03",
+      "descricao": "Atendimento a pacientes em enfermaria e coordenação de equipe de técnicos."
+    }
+  ],
+  "formacao": [
+    {
+      "curso": "Enfermagem",
+      "instituicao": "ESPM",
+      "ano": 2018
+    }
+  ],
+  "projetos": [
+    {
+      "titulo": "Cuidado Humanizado na Enfermagem",
+      "link": "https://example.com/projeto27",
+      "descricao": "Iniciativa interna para melhorar a experiência de pacientes e familiares."
+    }
+  ],
+  "certificacoes": ["Enfermagem em UTI"],
+  "idiomas": [{ "idioma": "Inglês", "nivel": "Avançado" }],
+  "areaInteresses": ["Humanização da Saúde", "Gestão em Enfermagem"]
+},
+{
+  "id": 28,
+  "nome": "Marcelo Pires",
+  "foto": "https://images.pexels.com/photos/1139743/pexels-photo-1139743.jpeg",
+  "cargo": "Cloud Engineer",
+  "resumo": "Especialista em migração e arquitetura em nuvem.",
+  "localizacao": "Campinas/SP",
+  "area": "Infraestrutura",
+  "habilidadesTecnicas": ["AWS", "Terraform", "Kubernetes"],
+  "softSkills": ["Resolução de Problemas", "Comunicação"],
+  "experiencias": [
+    {
+      "empresa": "CloudBridge",
+      "cargo": "Cloud Engineer",
+      "inicio": "2018-03",
+      "fim": "2024-02",
+      "descricao": "Projetos de migração para nuvem e otimização de custos."
+    }
+  ],
+  "formacao": [
+    {
+      "curso": "Engenharia de Computação",
+      "instituicao": "UNICAMP",
+      "ano": 2017
+    }
+  ],
+  "projetos": [
+    {
+      "titulo": "Arquitetura Multi-Cloud",
+      "link": "https://example.com/projeto28",
+      "descricao": "Desenho de solução resiliente em múltiplos provedores."
+    }
+  ],
+  "certificacoes": ["AWS Solutions Architect"],
+  "idiomas": [{ "idioma": "Inglês", "nivel": "Avançado" }],
+  "areaInteresses": ["DevOps", "FinOps"]
+},
+{
+  "id": 29,
+  "nome": "Júlia Barros",
+  "foto": "https://images.pexels.com/photos/1130626/pexels-photo-1130626.jpeg",
+  "cargo": "Gestora Financeira",
+  "resumo": "Responsável por planejamento financeiro, análise de resultados e controle de orçamento.",
+  "localizacao": "Porto Alegre/RS",
+  "area": "Finanças",
+  "habilidadesTecnicas": ["Análise Financeira", "Orçamento Empresarial", "Excel Avançado"],
+  "softSkills": ["Pensamento Crítico", "Comunicação"],
+  "experiencias": [
+    {
+      "empresa": "InsightData Finanças",
+      "cargo": "Gestora Financeira",
+      "inicio": "2020-01",
+      "fim": "2024-03",
+      "descricao": "Gestão de fluxo de caixa, custos e relatórios financeiros mensais."
+    }
+  ],
+  "formacao": [
+    {
+      "curso": "Administração",
+      "instituicao": "UFRGS",
+      "ano": 2019
+    }
+  ],
+  "projetos": [
+    {
+      "titulo": "Plano Financeiro Estratégico",
+      "link": "https://example.com/projeto29",
+      "descricao": "Estruturação de planejamento financeiro trianual para a empresa."
+    }
+  ],
+  "certificacoes": ["Controladoria e Finanças"],
+  "idiomas": [{ "idioma": "Inglês", "nivel": "Avançado" }],
+  "areaInteresses": ["Controladoria", "Finanças Corporativas"]
+},
+{
+  "id": 30,
+  "nome": "Pedro Nogueira",
+  "foto": "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg",
+  "cargo": "QA Engineer",
+  "resumo": "Automação de testes e garantia de qualidade.",
+  "localizacao": "Curitiba/PR",
+  "area": "Qualidade",
+  "habilidadesTecnicas": ["Selenium", "Cypress", "Java"],
+  "softSkills": ["Detalhismo", "Proatividade"],
+  "experiencias": [
+    {
+      "empresa": "TestLab",
+      "cargo": "QA Engineer",
+      "inicio": "2019-06",
+      "fim": "2024-01",
+      "descricao": "Criação de suites automatizadas e testes end-to-end."
+    }
+  ],
+  "formacao": [
+    {
+      "curso": "Análise e Desenvolvimento de Sistemas",
+      "instituicao": "PUC PR",
+      "ano": 2018
+    }
+  ],
+  "projetos": [
+    {
+      "titulo": "Pipeline de Testes",
+      "link": "https://example.com/projeto30",
+      "descricao": "Integração de testes automatizados em CI/CD."
+    }
+  ],
+  "certificacoes": ["ISTQB Foundation"],
+  "idiomas": [{ "idioma": "Inglês", "nivel": "Básico" }],
+  "areaInteresses": ["Automação", "Testes de Performance"]
+},
+{
+  "id": 31,
+  "nome": "Camila Freitas",
+  "foto": "https://images.pexels.com/photos/247322/pexels-photo-247322.jpeg",
+  "cargo": "Jornalista",
+  "resumo": "Produz reportagens e conteúdos para mídia digital e impressa.",
+  "localizacao": "Fortaleza/CE",
+  "area": "Comunicação",
+  "habilidadesTecnicas": ["Redação Jornalística", "Apuração de Fatos", "Entrevistas"],
+  "softSkills": ["Criatividade", "Comunicação"],
+  "experiencias": [
+    {
+      "empresa": "GrowthLab News",
+      "cargo": "Repórter",
+      "inicio": "2019-01",
+      "fim": "2024-02",
+      "descricao": "Cobertura de pautas de economia e tecnologia para portal online."
+    }
+  ],
+  "formacao": [
+    {
+      "curso": "Jornalismo",
+      "instituicao": "UNIFOR",
+      "ano": 2018
+    }
+  ],
+  "projetos": [
+    {
+      "titulo": "Série Especial Sobre Inovação",
+      "link": "https://example.com/projeto31",
+      "descricao": "Reportagens especiais sobre startups e empreendedorismo."
+    }
+  ],
+  "certificacoes": ["Jornalismo Digital"],
+  "idiomas": [{ "idioma": "Inglês", "nivel": "Intermediário" }],
+  "areaInteresses": ["Comunicação Digital", "Reportagem Investigativa"]
+},
+{
+  "id": 32,
+  "nome": "Leonardo Silva",
+  "foto": "https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg",
+  "cargo": "Engenheiro de Software Backend",
+  "resumo": "Focado em arquiteturas escaláveis e microserviços.",
+  "localizacao": "Campinas/SP",
+  "area": "Desenvolvimento",
+  "habilidadesTecnicas": ["Go", "PostgreSQL", "RabbitMQ"],
+  "softSkills": ["Pensamento Analítico", "Comunicação"],
+  "experiencias": [
+    {
+      "empresa": "APIHub",
+      "cargo": "Backend Developer",
+      "inicio": "2018-02",
+      "fim": "2023-09",
+      "descricao": "Desenvolvimento de serviços de alto desempenho."
+    }
+  ],
+  "formacao": [
+    {
+      "curso": "Engenharia de Computação",
+      "instituicao": "UNICAMP",
+      "ano": 2017
+    }
+  ],
+  "projetos": [
+    {
+      "titulo": "Sistema de Mensageria",
+      "link": "https://example.com/projeto32",
+      "descricao": "Implementação de mensageria distribuída."
+    }
+  ],
+  "certificacoes": [],
+  "idiomas": [
+    { "idioma": "Inglês", "nivel": "Avançado" },
+    { "idioma": "Alemão", "nivel": "Básico" }
+  ],
+  "areaInteresses": ["Arquitetura de Software", "SRE"]
+},
+{
+  "id": 33,
+  "nome": "Renata Oliveira",
+  "foto": "https://images.pexels.com/photos/1587009/pexels-photo-1587009.jpeg",
+  "cargo": "Coordenadora Pedagógica",
+  "resumo": "Responsável por apoiar professores, revisar planos de aula e garantir a qualidade do ensino.",
+  "localizacao": "Porto Alegre/RS",
+  "area": "Educação",
+  "habilidadesTecnicas": ["Coordenação Pedagógica", "Formação de Professores", "Avaliação Educacional"],
+  "softSkills": ["Liderança", "Comunicação"],
+  "experiencias": [
+    {
+      "empresa": "Colégio Prodify",
+      "cargo": "Coordenadora Pedagógica",
+      "inicio": "2019-10",
+      "fim": "2024-02",
+      "descricao": "Apoio às equipes docentes e condução de projetos pedagógicos."
+    }
+  ],
+  "formacao": [
+    {
+      "curso": "Pedagogia",
+      "instituicao": "UFRGS",
+      "ano": 2018
+    }
+  ],
+  "projetos": [
+    {
+      "titulo": "Programa de Formação Contínua",
+      "link": "https://example.com/projeto33",
+      "descricao": "Plano de capacitação anual para professores da escola."
+    }
+  ],
+  "certificacoes": ["Gestão Escolar"],
+  "idiomas": [{ "idioma": "Inglês", "nivel": "Intermediário" }],
+  "areaInteresses": ["Formação Docente", "Metodologias Ativas"]
+},
+{
+  "id": 34,
+  "nome": "Hugo Santana",
+  "foto": "https://images.pexels.com/photos/769733/pexels-photo-769733.jpeg",
+  "cargo": "Full-stack Developer",
+  "resumo": "Cria soluções completas, do banco ao front.",
+  "localizacao": "São Paulo/SP",
+  "area": "Desenvolvimento",
+  "habilidadesTecnicas": ["Laravel", "Vue.js", "MySQL"],
+  "softSkills": ["Colaboração", "Resolução de Problemas"],
+  "experiencias": [
+    {
+      "empresa": "FullDev",
+      "cargo": "Full-stack Dev",
+      "inicio": "2019-05",
+      "fim": "2024-02",
+      "descricao": "Desenvolvimento de sistemas web corporativos."
+    }
+  ],
+  "formacao": [
+    {
+      "curso": "Sistemas de Informação",
+      "instituicao": "PUC SP",
+      "ano": 2018
+    }
+  ],
+  "projetos": [
+    {
+      "titulo": "Portal de Clientes",
+      "link": "https://example.com/projeto34",
+      "descricao": "Portal com autenticação, relatórios e área logada."
+    }
+  ],
+  "certificacoes": [],
+  "idiomas": [{ "idioma": "Inglês", "nivel": "Intermediário" }],
+  "areaInteresses": ["Arquitetura Limpa", "DevOps"]
+},
+{
+  "id": 35,
+  "nome": "Bruna Teixeira",
+  "foto": "https://images.pexels.com/photos/227294/pexels-photo-227294.jpeg",
+  "cargo": "Terapeuta Ocupacional",
+  "resumo": "Ajuda pacientes a recuperarem autonomia em atividades do dia a dia.",
+  "localizacao": "Rio de Janeiro/RJ",
+  "area": "Saúde",
+  "habilidadesTecnicas": ["Terapia Ocupacional Adulto", "Reabilitação Funcional", "Atividades Terapêuticas"],
+  "softSkills": ["Empatia", "Comunicação"],
+  "experiencias": [
+    {
+      "empresa": "Clínica StoryUX",
+      "cargo": "Terapeuta Ocupacional",
+      "inicio": "2020-01",
+      "fim": "2024-03",
+      "descricao": "Atendimento individual e em grupo para reabilitação funcional."
+    }
+  ],
+  "formacao": [
+    {
+      "curso": "Terapia Ocupacional",
+      "instituicao": "UFRJ",
+      "ano": 2018
+    }
+  ],
+  "projetos": [
+    {
+      "titulo": "Programa de Autonomia",
+      "link": "https://example.com/projeto35",
+      "descricao": "Atividades práticas para retomada de rotina após acidentes."
+    }
+  ],
+  "certificacoes": [],
+  "idiomas": [
+    { "idioma": "Inglês", "nivel": "Avançado" },
+    { "idioma": "Espanhol", "nivel": "Intermediário" }
+  ],
+  "areaInteresses": ["Reabilitação Neurológica", "Saúde Mental"]
+},
+{
+  "id": 36,
+  "nome": "Carlos Eduardo Lopes",
+  "foto": "https://images.pexels.com/photos/262391/pexels-photo-262391.jpeg",
+  "cargo": "DevOps Engineer",
+  "resumo": "Focado em CI/CD, containers e observabilidade.",
+  "localizacao": "Belo Horizonte/MG",
+  "area": "Infraestrutura",
+  "habilidadesTecnicas": ["Jenkins", "Docker", "Kubernetes"],
+  "softSkills": ["Trabalho em Equipe", "Proatividade"],
+  "experiencias": [
+    {
+      "empresa": "PipeOps",
+      "cargo": "DevOps Engineer",
+      "inicio": "2018-09",
+      "fim": "2024-01",
+      "descricao": "Automação de pipelines e deploy contínuo."
+    }
+  ],
+  "formacao": [
+    {
+      "curso": "Engenharia de Controle e Automação",
+      "instituicao": "CEFET-MG",
+      "ano": 2017
+    }
+  ],
+  "projetos": [
+    {
+      "titulo": "Pipeline Multiambiente",
+      "link": "https://example.com/projeto36",
+      "descricao": "Pipeline com esteiras de dev, hml e prod."
+    }
+  ],
+  "certificacoes": ["CKA"],
+  "idiomas": [{ "idioma": "Inglês", "nivel": "Intermediário" }],
+  "areaInteresses": ["SRE", "Infra as Code"]
+},
+{
+  "id": 37,
+  "nome": "Natalia Moreira",
+  "foto": "https://images.pexels.com/photos/1239288/pexels-photo-1239288.jpeg",
+  "cargo": "Analista de Logística",
+  "resumo": "Planeja e otimiza fluxos de distribuição e estoques.",
+  "localizacao": "São Paulo/SP",
+  "area": "Logística",
+  "habilidadesTecnicas": ["Gestão de Estoques", "Planejamento de Rotas", "Excel Avançado"],
+  "softSkills": ["Análise Crítica", "Comunicação"],
+  "experiencias": [
+    {
+      "empresa": "BizTech Log",
+      "cargo": "Analista de Logística",
+      "inicio": "2019-03",
+      "fim": "2024-02",
+      "descricao": "Planejamento de rotas e controle de níveis de estoque."
+    }
+  ],
+  "formacao": [
+    {
+      "curso": "Engenharia de Produção",
+      "instituicao": "USP",
+      "ano": 2018
+    }
+  ],
+  "projetos": [
+    {
+      "titulo": "Otimização de Distribuição",
+      "link": "https://example.com/projeto37",
+      "descricao": "Projeto de redução de custos logísticos em 15%."
+    }
+  ],
+  "certificacoes": [],
+  "idiomas": [{ "idioma": "Inglês", "nivel": "Intermediário" }],
+  "areaInteresses": ["Logística 4.0", "Supply Chain"]
+},
+{
+  "id": 38,
+  "nome": "André Souza",
+  "foto": "https://images.pexels.com/photos/842980/pexels-photo-842980.jpeg",
+  "cargo": "Front-end Developer",
+  "resumo": "Apaixonado por performance e animações na web.",
+  "localizacao": "Salvador/BA",
+  "area": "Desenvolvimento",
+  "habilidadesTecnicas": ["React", "Next.js", "TypeScript"],
+  "softSkills": ["Criatividade", "Colaboração"],
+  "experiencias": [
+    {
+      "empresa": "PixelWeb",
+      "cargo": "Front-end Dev",
+      "inicio": "2020-05",
+      "fim": "2024-03",
+      "descricao": "Desenvolvimento de SPAs performáticas."
+    }
+  ],
+  "formacao": [
+    {
+      "curso": "Sistemas de Informação",
+      "instituicao": "UFBA",
+      "ano": 2019
+    }
+  ],
+  "projetos": [
+    {
+      "titulo": "Portfólio Interativo",
+      "link": "https://example.com/projeto38",
+      "descricao": "Site com animações suaves e SEO otimizado."
+    }
+  ],
+  "certificacoes": [],
+  "idiomas": [{ "idioma": "Inglês", "nivel": "Intermediário" }],
+  "areaInteresses": ["Web Performance", "Design Systems"]
+},
+{
+  "id": 39,
+  "nome": "Isadora Nunes",
+  "foto": "https://images.pexels.com/photos/1102341/pexels-photo-1102341.jpeg",
+  "cargo": "Engenheira Civil",
+  "resumo": "Responsável por projetos estruturais e acompanhamento de obras.",
+  "localizacao": "Recife/PE",
+  "area": "Engenharia",
+  "habilidadesTecnicas": ["Cálculo Estrutural", "Leitura de Projetos", "Gestão de Obras"],
+  "softSkills": ["Organização", "Pensamento Sistêmico"],
+  "experiencias": [
+    {
+      "empresa": "DataSky Engenharia",
+      "cargo": "Engenheira Civil",
+      "inicio": "2019-11",
+      "fim": "2024-02",
+      "descricao": "Atuação em projetos residenciais e comerciais de médio porte."
+    }
+  ],
+  "formacao": [
+    {
+      "curso": "Engenharia Civil",
+      "instituicao": "UFPE",
+      "ano": 2018
+    }
+  ],
+  "projetos": [
+    {
+      "titulo": "Condomínio Alto Mar",
+      "link": "https://example.com/projeto39",
+      "descricao": "Projeto estrutural e acompanhamento da execução."
+    }
+  ],
+  "certificacoes": ["Segurança do Trabalho na Construção"],
+  "idiomas": [{ "idioma": "Inglês", "nivel": "Avançado" }],
+  "areaInteresses": ["Construção Sustentável", "Gestão de Obras"]
+},
+{
+  "id": 40,
+  "nome": "Rogério Farias",
+  "foto": "https://images.pexels.com/photos/2770600/pexels-photo-2770600.jpeg",
+  "cargo": "Security Engineer",
+  "resumo": "Especialista em hardening, IAM e segurança em nuvem.",
+  "localizacao": "São Paulo/SP",
+  "area": "Segurança",
+  "habilidadesTecnicas": ["IAM", "SIEM", "AWS Security"],
+  "softSkills": ["Detalhismo", "Pensamento Crítico"],
+  "experiencias": [
+    {
+      "empresa": "ShieldTech",
+      "cargo": "Security Engineer",
+      "inicio": "2018-04",
+      "fim": "2024-03",
+      "descricao": "Definição de políticas de segurança e monitoramento."
+    }
+  ],
+  "formacao": [
+    {
+      "curso": "Ciência da Computação",
+      "instituicao": "Mackenzie",
+      "ano": 2017
+    }
+  ],
+  "projetos": [
+    {
+      "titulo": "Hardening de Infraestrutura",
+      "link": "https://example.com/projeto40",
+      "descricao": "Revisão de segurança de ambientes on-premise e cloud."
+    }
+  ],
+  "certificacoes": ["CompTIA Security+"],
+  "idiomas": [{ "idioma": "Inglês", "nivel": "Intermediário" }],
+  "areaInteresses": ["Zero Trust", "Cloud Security"]
+},
+{
+  "id": 41,
+  "nome": "Paula Martins",
+  "foto": "https://images.pexels.com/photos/28206849/pexels-photo-28206849.jpeg",
+  "cargo": "Coordenadora de RH",
+  "resumo": "Lidera iniciativas de desenvolvimento de pessoas e cultura organizacional.",
+  "localizacao": "São Paulo/SP",
+  "area": "RH",
+  "habilidadesTecnicas": ["People Analytics", "Gestão de Performance", "Treinamentos"],
+  "softSkills": ["Empatia", "Comunicação"],
+  "experiencias": [
+    {
+      "empresa": "HumanTech",
+      "cargo": "Coordenadora de RH",
+      "inicio": "2019-02",
+      "fim": "2024-01",
+      "descricao": "Gestão de times de RH e implementação de programas de desenvolvimento."
+    }
+  ],
+  "formacao": [
+    {
+      "curso": "Psicologia",
+      "instituicao": "PUC SP",
+      "ano": 2018
+    }
+  ],
+  "projetos": [
+    {
+      "titulo": "Programa de Mentoria Interna",
+      "link": "https://example.com/projeto41",
+      "descricao": "Criação de trilhas de desenvolvimento para colaboradores."
+    }
+  ],
+  "certificacoes": [],
+  "idiomas": [{ "idioma": "Inglês", "nivel": "Básico" }],
+  "areaInteresses": ["People Analytics", "Cultura Organizacional"]
+},
+{
+  "id": 42,
+  "nome": "Diego Ramos",
+  "foto": "https://images.pexels.com/photos/1036627/pexels-photo-1036627.jpeg",
+  "cargo": "Front-end Developer",
+  "resumo": "Cria experiências ricas com foco em acessibilidade.",
+  "localizacao": "Joinville/SC",
+  "area": "Desenvolvimento",
+  "habilidadesTecnicas": ["React", "Tailwind", "Vitest"],
+  "softSkills": ["Trabalho em Equipe", "Detalhismo"],
+  "experiencias": [
+    {
+      "empresa": "NovaWeb",
+      "cargo": "Front-end Dev",
+      "inicio": "2020-04",
+      "fim": "2024-03",
+      "descricao": "Desenvolvimento de interfaces para SaaS B2B."
+    }
+  ],
+  "formacao": [
+    {
+      "curso": "Análise e Desenvolvimento de Sistemas",
+      "instituicao": "IFSC",
+      "ano": 2019
+    }
+  ],
+  "projetos": [
+    {
+      "titulo": "Design System Web",
+      "link": "https://example.com/projeto42",
+      "descricao": "Biblioteca de componentes reutilizáveis com documentação."
+    }
+  ],
+  "certificacoes": [],
+  "idiomas": [{ "idioma": "Inglês", "nivel": "Intermediário" }],
+  "areaInteresses": ["Design Systems", "Testing"]
+},
+{
+  "id": 43,
+  "nome": "Luana Ribeiro",
+  "foto": "https://images.pexels.com/photos/2090658/pexels-photo-2090658.jpeg",
+  "cargo": "Especialista em Comércio Exterior",
+  "resumo": "Atua com operações de importação, exportação e análise de mercados internacionais.",
+  "localizacao": "Natal/RN",
+  "area": "Comércio Exterior",
+  "habilidadesTecnicas": ["Documentação de Import/Export", "Regulamentação Aduaneira", "Negociação Internacional"],
+  "softSkills": ["Análise Crítica", "Comunicação"],
+  "experiencias": [
+    {
+      "empresa": "InsightNow Global",
+      "cargo": "Especialista em Comércio Exterior",
+      "inicio": "2019-09",
+      "fim": "2024-01",
+      "descricao": "Gestão de operações internacionais e contato com fornecedores externos."
+    }
+  ],
+  "formacao": [
+    {
+      "curso": "Relações Internacionais",
+      "instituicao": "UFRN",
+      "ano": 2018
+    }
+  ],
+  "projetos": [
+    {
+      "titulo": "Expansão de Operações para América Latina",
+      "link": "https://example.com/projeto43",
+      "descricao": "Projeto de viabilidade para abertura de novos mercados."
+    }
+  ],
+  "certificacoes": [],
+  "idiomas": [{ "idioma": "Inglês", "nivel": "Intermediário" }],
+  "areaInteresses": ["Logística Internacional", "Negócios Globais"]
+},
+{
+  "id": 44,
+  "nome": "Rafael Campos",
+  "foto": "https://images.pexels.com/photos/5474028/pexels-photo-5474028.jpeg",
+  "cargo": "Back-end Developer",
+  "resumo": "Cria APIs robustas e integrações entre sistemas.",
+  "localizacao": "São Paulo/SP",
+  "area": "Desenvolvimento",
+  "habilidadesTecnicas": ["C#", ".NET", "SQL Server"],
+  "softSkills": ["Resolução de Problemas", "Organização"],
+  "experiencias": [
+    {
+      "empresa": "CoreTech",
+      "cargo": "Back-end Dev",
+      "inicio": "2018-10",
+      "fim": "2024-02",
+      "descricao": "Desenvolvimento de APIs internas e integrações."
+    }
+  ],
+  "formacao": [
+    {
+      "curso": "Engenharia de Software",
+      "instituicao": "FIAP",
+      "ano": 2018
+    }
+  ],
+  "projetos": [
+    {
+      "titulo": "API Financeira",
+      "link": "https://example.com/projeto44",
+      "descricao": "API para processamento de transações financeiras."
+    }
+  ],
+  "certificacoes": [],
+  "idiomas": [{ "idioma": "Inglês", "nivel": "Intermediário" }],
+  "areaInteresses": ["Arquitetura em Camadas", "Mensageria"]
+},
+{
+  "id": 45,
+  "nome": "Isabel Cristina",
+  "foto": "https://images.pexels.com/photos/9763640/pexels-photo-9763640.jpeg",
+  "cargo": "Professora de Língua Portuguesa",
+  "resumo": "Trabalha com leitura, escrita e interpretação de textos no ensino fundamental e médio.",
+  "localizacao": "São Paulo/SP",
+  "area": "Educação",
+  "habilidadesTecnicas": ["Gramática", "Produção Textual", "Correção de Redações"],
+  "softSkills": ["Empatia", "Comunicação"],
+  "experiencias": [
+    {
+      "empresa": "Colégio UserFirst",
+      "cargo": "Professora de Português",
+      "inicio": "2020-01",
+      "fim": "2024-03",
+      "descricao": "Ministração de aulas e correção de redações para vestibular."
+    }
+  ],
+  "formacao": [
+    {
+      "curso": "Letras",
+      "instituicao": "Belas Artes",
+      "ano": 2019
+    }
+  ],
+  "projetos": [
+    {
+      "titulo": "Clube de Leitura Escolar",
+      "link": "https://example.com/projeto45",
+      "descricao": "Projeto para incentivar leitura entre alunos do ensino médio."
+    }
+  ],
+  "certificacoes": ["Didática do Ensino de Línguas"],
+  "idiomas": [{ "idioma": "Inglês", "nivel": "Intermediário" }],
+  "areaInteresses": ["Educação Básica", "Leitura e Escrita"]
+},
+{
+  "id": 46,
+  "nome": "Henrique Costa",
+  "foto": "https://images.pexels.com/photos/34786250/pexels-photo-34786250.jpeg",
+  "cargo": "Site Reliability Engineer",
+  "resumo": "Garante confiabilidade e escalabilidade de serviços.",
+  "localizacao": "Curitiba/PR",
+  "area": "Infraestrutura",
+  "habilidadesTecnicas": ["Linux", "Prometheus", "Grafana"],
+  "softSkills": ["Pensamento Sistêmico", "Comunicação"],
+  "experiencias": [
+    {
+      "empresa": "HighScale",
+      "cargo": "SRE",
+      "inicio": "2019-06",
+      "fim": "2024-02",
+      "descricao": "Planejamento de SLOs e resposta a incidentes."
+    }
+  ],
+  "formacao": [
+    {
+      "curso": "Engenharia de Computação",
+      "instituicao": "UFPR",
+      "ano": 2018
+    }
+  ],
+  "projetos": [
+    {
+      "titulo": "Plataforma Observability",
+      "link": "https://example.com/projeto46",
+      "descricao": "Stack unificada de logs, métricas e traces."
+    }
+  ],
+  "certificacoes": [],
+  "idiomas": [{ "idioma": "Inglês", "nivel": "Intermediário" }],
+  "areaInteresses": ["SRE", "Chaos Engineering"]
+},
+{
+  "id": 47,
+  "nome": "Daniela Souza",
+  "foto": "https://images.pexels.com/photos/32215827/pexels-photo-32215827.jpeg",
+  "cargo": "Consultora de Negócios",
+  "resumo": "Auxilia empresas em estratégias de crescimento e organização de processos.",
+  "localizacao": "São Paulo/SP",
+  "area": "Negócios",
+  "habilidadesTecnicas": ["Mapeamento de Processos", "Planejamento Estratégico", "Análise de Indicadores"],
+  "softSkills": ["Liderança", "Comunicação"],
+  "experiencias": [
+    {
+      "empresa": "VisionTech Consulting",
+      "cargo": "Consultora de Negócios",
+      "inicio": "2019-02",
+      "fim": "2024-03",
+      "descricao": "Atuação em projetos de melhoria de processos e aumento de receita."
+    }
+  ],
+  "formacao": [
+    {
+      "curso": "Administração",
+      "instituicao": "FGV",
+      "ano": 2018
+    }
+  ],
+  "projetos": [
+    {
+      "titulo": "Reestruturação Comercial B2B",
+      "link": "https://example.com/projeto47",
+      "descricao": "Projeto de reorganização da área comercial de uma empresa de serviços."
+    }
+  ],
+  "certificacoes": ["Gestão de Negócios"],
+  "idiomas": [{ "idioma": "Inglês", "nivel": "Intermediário" }],
+  "areaInteresses": ["Estratégia", "Gestão de Mudanças"]
+},
+{
+  "id": 48,
+  "nome": "Thiago Almeida",
+  "foto": "https://images.pexels.com/photos/34770972/pexels-photo-34770972.jpeg",
+  "cargo": "Full-stack Developer",
+  "resumo": "Trabalha com stack JavaScript do front ao back.",
+  "localizacao": "Belo Horizonte/MG",
+  "area": "Desenvolvimento",
+  "habilidadesTecnicas": ["Node.js", "React", "PostgreSQL"],
+  "softSkills": ["Proatividade", "Colaboração"],
+  "experiencias": [
+    {
+      "empresa": "CodeFactory",
+      "cargo": "Full-stack Dev",
+      "inicio": "2019-03",
+      "fim": "2024-02",
+      "descricao": "Desenvolvimento de novas features e manutenção de legado."
+    }
+  ],
+  "formacao": [
+    {
+      "curso": "Sistemas de Informação",
+      "instituicao": "PUC Minas",
+      "ano": 2018
+    }
+  ],
+  "projetos": [
+    {
+      "titulo": "Sistema de Reservas",
+      "link": "https://example.com/projeto48",
+      "descricao": "Aplicação full-stack para reservas de salas."
+    }
+  ],
+  "certificacoes": [],
+  "idiomas": [{ "idioma": "Inglês", "nivel": "Intermediário" }],
+  "areaInteresses": ["Clean Code", "Arquitetura de Software"]
+},
+{
+  "id": 49,
+  "nome": "Gabriela Rocha",
+  "foto": "https://images.pexels.com/photos/27383454/pexels-photo-27383454.jpeg",
+  "cargo": "Fotógrafa",
+  "resumo": "Especializada em retratos profissionais e fotografia de eventos.",
+  "localizacao": "Florianópolis/SC",
+  "area": "Artes",
+  "habilidadesTecnicas": ["Fotografia de Retrato", "Edição de Imagem", "Iluminação"],
+  "softSkills": ["Criatividade", "Comunicação"],
+  "experiencias": [
+    {
+      "empresa": "PixelCraft Studio",
+      "cargo": "Fotógrafa",
+      "inicio": "2020-04",
+      "fim": "2024-03",
+      "descricao": "Sessões fotográficas para empresas e profissionais liberais."
+    }
+  ],
+  "formacao": [
+    {
+      "curso": "Fotografia",
+      "instituicao": "UFSC",
+      "ano": 2019
+    }
+  ],
+  "projetos": [
+    {
+      "titulo": "Projeto Retratos Profissionais",
+      "link": "https://example.com/projeto49",
+      "descricao": "Série de retratos para uso em LinkedIn e portfólios."
+    }
+  ],
+  "certificacoes": [],
+  "idiomas": [
+    { "idioma": "Inglês", "nivel": "Intermediário" },
+    { "idioma": "Francês", "nivel": "Básico" }
+  ],
+  "areaInteresses": ["Retrato Profissional", "Fotografia de Marca Pessoal"]
+},
+{
+  "id": 50,
+  "nome": "Matheus Vieira",
+  "foto": "https://images.pexels.com/photos/34762358/pexels-photo-34762358.jpeg",
+  "cargo": "Dev Front-end",
+  "resumo": "Focado em experiências acessíveis e performáticas.",
+  "localizacao": "São Paulo/SP",
+  "area": "Desenvolvimento",
+  "habilidadesTecnicas": ["React", "Next.js", "Tailwind"],
+  "softSkills": ["Detalhismo", "Trabalho em Equipe"],
+  "experiencias": [
+    {
+      "empresa": "FrontLine",
+      "cargo": "Front-end Dev",
+      "inicio": "2020-06",
+      "fim": "2024-02",
+      "descricao": "Criação de interfaces e landing pages de alta conversão."
+    }
+  ],
+  "formacao": [
+    {
+      "curso": "Sistemas de Informação",
+      "instituicao": "FIAP",
+      "ano": 2019
+    }
+  ],
+  "projetos": [
+    {
+      "titulo": "Landing Page SaaS",
+      "link": "https://example.com/projeto50",
+      "descricao": "Landing com foco em performance (Lighthouse 95+)."
+    }
+  ],
+  "certificacoes": [],
+  "idiomas": [{ "idioma": "Inglês", "nivel": "Intermediário" }],
+  "areaInteresses": ["Performance Web", "Acessibilidade"]
+},
+{
+  "id": 51,
+  "nome": "Joana Santos",
+  "foto": "https://images.pexels.com/photos/34805911/pexels-photo-34805911.jpeg",
+  "cargo": "Coordenadora de Marketing",
+  "resumo": "Lidera estratégias de posicionamento e campanhas em múltiplos canais.",
+  "localizacao": "São Paulo/SP",
+  "area": "Marketing",
+  "habilidadesTecnicas": ["Planejamento de Campanhas", "Mídia Paga", "SEO"],
+  "softSkills": ["Liderança Servidora", "Comunicação"],
+  "experiencias": [
+    {
+      "empresa": "AgileMind Marketing",
+      "cargo": "Coordenadora de Marketing",
+      "inicio": "2019-02",
+      "fim": "2024-02",
+      "descricao": "Gestão de equipe de marketing e coordenação de lançamentos de produtos."
+    }
+  ],
+  "formacao": [
+    {
+      "curso": "Administração",
+      "instituicao": "USP",
+      "ano": 2018
+    }
+  ],
+  "projetos": [
+    {
+      "titulo": "Campanha 360° Omni-channel",
+      "link": "https://example.com/projeto51",
+      "descricao": "Lançamento de campanha integrada em mídias digitais e offline."
+    }
+  ],
+  "certificacoes": ["CSM"],
+  "idiomas": [{ "idioma": "Inglês", "nivel": "Básico" }],
+  "areaInteresses": ["Branding", "Estratégia de Conteúdo"]
+},
+{
+  "id": 52,
+  "nome": "Bruno Ferreira",
+  "foto": "https://images.pexels.com/photos/34748784/pexels-photo-34748784.jpeg",
+  "cargo": "Engenheiro de Dados",
+  "resumo": "Constrói pipelines e modelagens para analytics.",
+  "localizacao": "São Paulo/SP",
+  "area": "Dados",
+  "habilidadesTecnicas": ["Python", "Spark", "Databricks"],
+  "softSkills": ["Análise Crítica", "Trabalho em Equipe"],
+  "experiencias": [
+    {
+      "empresa": "DataWave",
+      "cargo": "Data Engineer",
+      "inicio": "2018-11",
+      "fim": "2024-03",
+      "descricao": "Implementação de pipelines batch e streaming."
+    }
+  ],
+  "formacao": [
+    {
+      "curso": "Engenharia Elétrica",
+      "instituicao": "POLI-USP",
+      "ano": 2017
+    }
+  ],
+  "projetos": [
+    {
+      "titulo": "Plataforma de Dados",
+      "link": "https://example.com/projeto52",
+      "descricao": "Base de dados única para múltiplas áreas."
+    }
+  ],
+  "certificacoes": [],
+  "idiomas": [
+    { "idioma": "Inglês", "nivel": "Avançado" },
+    { "idioma": "Espanhol", "nivel": "Básico" }
+  ],
+  "areaInteresses": ["Data Lakehouse", "MLOps"]
+},
+{
+  "id": 53,
+  "nome": "Carolina Machado",
+  "foto": "https://images.pexels.com/photos/34805330/pexels-photo-34805330.jpeg",
+  "cargo": "Analista de Treinamento e Desenvolvimento",
+  "resumo": "Focada em trilhas de aprendizagem e capacitação interna.",
+  "localizacao": "Rio de Janeiro/RJ",
+  "area": "RH",
+  "habilidadesTecnicas": ["Desenho Instrucional", "Aplicação de Treinamentos", "Levantamento de Necessidades"],
+  "softSkills": ["Empatia", "Comunicação"],
+  "experiencias": [
+    {
+      "empresa": "TalentMatch",
+      "cargo": "Analista de T&D",
+      "inicio": "2019-01",
+      "fim": "2024-02",
+      "descricao": "Criação e aplicação de programas de treinamento."
+    }
+  ],
+  "formacao": [
+    {
+      "curso": "Psicologia",
+      "instituicao": "UFRJ",
+      "ano": 2018
+    }
+  ],
+  "projetos": [
+    {
+      "titulo": "Trilhas de Desenvolvimento para Lideranças",
+      "link": "https://example.com/projeto53",
+      "descricao": "Estruturação de trilhas de formação para gestores."
+    }
+  ],
+  "certificacoes": [],
+  "idiomas": [{ "idioma": "Inglês", "nivel": "Básico" }],
+  "areaInteresses": ["Desenvolvimento de Pessoas", "Educação Corporativa"]
+},
+{
+  "id": 54,
+  "nome": "Ricardo Lima",
+  "foto": "https://images.pexels.com/photos/7698739/pexels-photo-7698739.jpeg",
+  "cargo": "DevOps Engineer",
+  "resumo": "Automação de infraestrutura e esteiras de CI/CD.",
+  "localizacao": "São Paulo/SP",
+  "area": "Infraestrutura",
+  "habilidadesTecnicas": ["GitLab CI", "Docker", "Kubernetes"],
+  "softSkills": ["Resolução de Problemas", "Comunicação"],
+  "experiencias": [
+    {
+      "empresa": "DeployNow",
+      "cargo": "DevOps Engineer",
+      "inicio": "2018-06",
+      "fim": "2024-01",
+      "descricao": "Criação de pipelines para squads de produto."
+    }
+  ],
+  "formacao": [
+    {
+      "curso": "Sistemas de Informação",
+      "instituicao": "FATEC",
+      "ano": 2017
+    }
+  ],
+  "projetos": [
+    {
+      "titulo": "Infra como Código",
+      "link": "https://example.com/projeto54",
+      "descricao": "Padronização de infraestrutura com Terraform."
+    }
+  ],
+  "certificacoes": [],
+  "idiomas": [{ "idioma": "Inglês", "nivel": "Intermediário" }],
+  "areaInteresses": ["DevSecOps", "Plataformas Internas"]
+},
+{
+  "id": 55,
+  "nome": "Mariana Lopes",
+  "foto": "https://images.pexels.com/photos/34803304/pexels-photo-34803304.jpeg",
+  "cargo": "Psicóloga Clínica",
+  "resumo": "Atua em consultório com foco em saúde emocional de adolescentes e adultos.",
+  "localizacao": "Porto Alegre/RS",
+  "area": "Saúde",
+  "habilidadesTecnicas": ["Atendimento Clínico", "Psicoterapia Individual", "Entrevista Clínica"],
+  "softSkills": ["Empatia", "Escuta Ativa"],
+  "experiencias": [
+    {
+      "empresa": "Clínica UserLens",
+      "cargo": "Psicóloga",
+      "inicio": "2020-03",
+      "fim": "2024-03",
+      "descricao": "Atendimento em consultório e participação em grupos terapêuticos."
+    }
+  ],
+  "formacao": [
+    {
+      "curso": "Psicologia",
+      "instituicao": "PUC RS",
+      "ano": 2019
+    }
+  ],
+  "projetos": [
+    {
+      "titulo": "Grupo de Apoio Emocional",
+      "link": "https://example.com/projeto55",
+      "descricao": "Grupo terapêutico focado em ansiedade e autocuidado."
+    }
+  ],
+  "certificacoes": [],
+  "idiomas": [{ "idioma": "Inglês", "nivel": "Intermediário" }],
+  "areaInteresses": ["Saúde Mental", "Psicoterapia"]
+},
+{
+  "id": 56,
+  "nome": "João Vitor Moreira",
+  "foto": "https://images.pexels.com/photos/8499301/pexels-photo-8499301.jpeg",
+  "cargo": "Mobile Developer",
+  "resumo": "Desenvolvedor mobile focado em UX e performance.",
+  "localizacao": "São Paulo/SP",
+  "area": "Desenvolvimento",
+  "habilidadesTecnicas": ["React Native", "Kotlin", "Swift"],
+  "softSkills": ["Resiliência", "Colaboração"],
+  "experiencias": [
+    {
+      "empresa": "MobLab",
+      "cargo": "Mobile Dev",
+      "inicio": "2019-05",
+      "fim": "2024-02",
+      "descricao": "Desenvolvimento de apps para iOS e Android."
+    }
+  ],
+  "formacao": [
+    {
+      "curso": "Engenharia de Software",
+      "instituicao": "FIAP",
+      "ano": 2019
+    }
+  ],
+  "projetos": [
+    {
+      "titulo": "App de Delivery",
+      "link": "https://example.com/projeto56",
+      "descricao": "Aplicativo de delivery com mapa em tempo real."
+    }
+  ],
+  "certificacoes": [],
+  "idiomas": [{ "idioma": "Inglês", "nivel": "Intermediário" }],
+  "areaInteresses": ["Arquitetura Mobile", "Design System Mobile"]
+},
+{
+  "id": 57,
+  "nome": "Patrícia Gomes",
+  "foto": "https://images.pexels.com/photos/34797107/pexels-photo-34797107.jpeg",
+  "cargo": "Planejadora Financeira",
+  "resumo": "Ajuda pessoas a organizarem finanças pessoais e investimentos.",
+  "localizacao": "São Paulo/SP",
+  "area": "Finanças",
+  "habilidadesTecnicas": ["Planejamento Financeiro", "Educação Financeira", "Investimentos"],
+  "softSkills": ["Comunicação", "Criatividade"],
+  "experiencias": [
+    {
+      "empresa": "Launchly Finanças",
+      "cargo": "Planejadora Financeira",
+      "inicio": "2019-07",
+      "fim": "2024-03",
+      "descricao": "Atendimento consultivo para organização financeira pessoal."
+    }
+  ],
+  "formacao": [
+    {
+      "curso": "Publicidade e Propaganda",
+      "instituicao": "ESPM",
+      "ano": 2018
+    }
+  ],
+  "projetos": [
+    {
+      "titulo": "Programa de Educação Financeira",
+      "link": "https://example.com/projeto57",
+      "descricao": "Conteúdos e workshops sobre finanças pessoais."
+    }
+  ],
+  "certificacoes": [],
+  "idiomas": [{ "idioma": "Inglês", "nivel": "Avançado" }],
+  "areaInteresses": ["Educação Financeira", "Planejamento de Longo Prazo"]
+},
+{
+  "id": 58,
+  "nome": "Eduardo Santos",
+  "foto": "https://images.pexels.com/photos/7870280/pexels-photo-7870280.jpeg",
+  "cargo": "Software Architect",
+  "resumo": "Define padrões e arquitetura para múltiplos sistemas.",
+  "localizacao": "São Paulo/SP",
+  "area": "Desenvolvimento",
+  "habilidadesTecnicas": ["Microservices", "Event-Driven", "Cloud"],
+  "softSkills": ["Visão Sistêmica", "Liderança Técnica"],
+  "experiencias": [
+    {
+      "empresa": "ScaleArch",
+      "cargo": "Software Architect",
+      "inicio": "2018-01",
+      "fim": "2024-03",
+      "descricao": "Definição de arquitetura de referência para squads."
+    }
+  ],
+  "formacao": [
+    {
+      "curso": "Engenharia de Computação",
+      "instituicao": "POLI-USP",
+      "ano": 2016
+    }
+  ],
+  "projetos": [
+    {
+      "titulo": "Plataforma de Pagamentos",
+      "link": "https://example.com/projeto58",
+      "descricao": "Arquitetura de alta disponibilidade para pagamentos online."
+    }
+  ],
+  "certificacoes": [],
+  "idiomas": [
+    { "idioma": "Inglês", "nivel": "Avançado" },
+    { "idioma": "Alemão", "nivel": "Básico" }
+  ],
+  "areaInteresses": ["Arquitetura Evolutiva", "Domain-Driven Design"]
+},
+{
+  "id": 59,
+  "nome": "Letícia Araujo",
+  "foto": "https://images.pexels.com/photos/5679150/pexels-photo-5679150.jpeg",
+  "cargo": "Gestora de Projetos Sociais",
+  "resumo": "Coordena iniciativas voltadas para impacto social em comunidades vulneráveis.",
+  "localizacao": "São Paulo/SP",
+  "area": "Terceiro Setor",
+  "habilidadesTecnicas": ["Gestão de Projetos Sociais", "Captação de Recursos", "Articulação Comunitária"],
+  "softSkills": ["Pensamento Crítico", "Comunicação"],
+  "experiencias": [
+    {
+      "empresa": "MLLab Social",
+      "cargo": "Gestora de Projetos",
+      "inicio": "2019-09",
+      "fim": "2024-02",
+      "descricao": "Planejamento e execução de projetos de inclusão social e educação."
+    }
+  ],
+  "formacao": [
+    {
+      "curso": "Ciência da Computação",
+      "instituicao": "USP",
+      "ano": 2018
+    }
+  ],
+  "projetos": [
+    {
+      "titulo": "Programa de Bolsas para Jovens",
+      "link": "https://example.com/projeto59",
+      "descricao": "Projeto de apoio educacional e profissional para jovens de baixa renda."
+    }
+  ],
+  "certificacoes": [],
+  "idiomas": [{ "idioma": "Inglês", "nivel": "Avançado" }],
+  "areaInteresses": ["Impacto Social", "Educação Comunitária"]
+},
+
+{
+  "id": 60,
+  "nome": "Caio Mendes",
+  "foto": "https://avatars.githubusercontent.com/u/8920156?v=4",
+  "cargo": "Full-stack Engineer",
+  "resumo": "Atua em todo o ciclo do desenvolvimento de produtos digitais.",
+  "localizacao": "São Paulo/SP",
+  "area": "Desenvolvimento",
+  "habilidadesTecnicas": ["Node.js", "React", "MongoDB"],
+  "softSkills": ["Proatividade", "Liderança"],
+  "experiencias": [
+    {
+      "empresa": "DevFlow",
+      "cargo": "Full-stack Engineer",
+      "inicio": "2018-08",
+      "fim": "2024-03",
+      "descricao": "Desenvolvimento e manutenção de plataforma web."
+    }
+  ],
+  "formacao": [
+    {
+      "curso": "Engenharia de Software",
+      "instituicao": "FIAP",
+      "ano": 2018
+    }
+  ],
+  "projetos": [
+    {
+      "titulo": "Plataforma Colaborativa",
+      "link": "https://example.com/projeto60",
+      "descricao": "Sistema para colaboração entre times multidisciplinares."
+    }
+  ],
+  "certificacoes": [],
+  "idiomas": [
+    { "idioma": "Inglês", "nivel": "Avançado" }
+  ],
+  "areaInteresses": ["Arquitetura Limpa", "DevOps"]
+}
 ]
