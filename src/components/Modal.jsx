@@ -88,7 +88,7 @@ function Modal({open, setOpen, id, nome, foto, cargo, resumo, localizacao, area,
 
             <DialogPanel transition className="relative transform overflow-hidden rounded-3xl bg-white text-left shadow-2xl transition-all data-closed:translate-y-4 data-closed:opacity-0 data-enter:duration-300 data-enter:ease-out data-leave:duration-200 data-leave:ease-in sm:my-8 sm:w-full sm:max-w-3xl data-closed:sm:translate-y-0 data-closed:sm:scale-95">
 
-              <div className="px-6 py-6 sm:px-8 sm:py-8">
+              <div className="px-6 py-6 sm:px-8 sm:py-8 dark:bg-gray-800">
                 <div className="flex flex-col sm:flex-row gap-8">
 
                   <div className="flex flex-col items-center sm:items-start gap-4 sm:w-1/3">

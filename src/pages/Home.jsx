@@ -6,8 +6,8 @@ export default function Home() {
     <main className="px-8 py-10">
       <section className="text-center mt-10 mb-20 max-w-3xl mx-auto">
         <h1 className="text-4xl font-extrabold text-green-600 leading-tight">Conecte talentos. Construa oportunidades.</h1>
-        <p className="text-gray-600 mt-4 text-lg leading-relaxed">A <span className="font-semibold text-green-600">Toopus</span> é uma plataforma pensada para facilitar conexões reais entre pessoas, áreas de interesse e futuros projetos. Aqui você pode explorar perfis, descobrir novas habilidades e se aproximar de profissionais que fazem sentido para a sua jornada.</p>
-        <p className="text-gray-600 mt-4 text-lg leading-relaxed"> Nosso propósito é criar um ambiente onde cada pessoa possa mostrar seu potencial, ser vista e encontrar oportunidades que tenham significado — seja para colaboração, estudos, network ou novas ideias.</p>
+        <p className="text-gray-600 mt-4 text-lg leading-relaxed dark:text-white">A <span className="font-semibold text-green-600">Toopus</span> é uma plataforma pensada para facilitar conexões reais entre pessoas, áreas de interesse e futuros projetos. Aqui você pode explorar perfis, descobrir novas habilidades e se aproximar de profissionais que fazem sentido para a sua jornada.</p>
+        <p className="text-gray-600 mt-4 text-lg leading-relaxed dark:text-white"> Nosso propósito é criar um ambiente onde cada pessoa possa mostrar seu potencial, ser vista e encontrar oportunidades que tenham significado — seja para colaboração, estudos, network ou novas ideias.</p>
         <Link to="/search" className="inline-block mt-8 bg-green-600 text-white font-semibold px-8 py-4 rounded-2xl shadow-md hover:bg-green-700 transition-all text-lg"> Explorar perfis </Link>
       </section>
 
