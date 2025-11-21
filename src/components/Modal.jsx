@@ -73,7 +73,7 @@ onConnectionChange,}) {
     }
   }
 
-  function handleRecomendar() {
+  function handleRecommend() {
     setOpen(false);
     navigate(`/recomendar/${id}`);
   }
@@ -235,7 +235,7 @@ onConnectionChange,}) {
                     {isConnected ? "Conectado" : "Conectar"}
                   </button>
 
-                  <button onClick={handleRecomendar} className="flex-1 rounded-full border border-green-600 text-green-700 px-4 py-2 text-sm font-medium hover:bg-green-600 hover:text-white transition-all cursor-pointer dark:border-green-400 dark:text-green-300 dark:hover:bg-green-500 dark:hover:text-gray-900">Recomendar</button>
+                  <button onClick={handleRecommend} className="flex-1 rounded-full border border-green-600 text-green-700 px-4 py-2 text-sm font-medium hover:bg-green-600 hover:text-white transition-all cursor-pointer dark:border-green-400 dark:text-green-300 dark:hover:bg-green-500 dark:hover:text-gray-900">Recomendar</button>
                 </div>
 
                 <button type="button" onClick={() => setOpen(false)} className="inline-flex justify-center rounded-full bg-red-500 px-4 py-2 text-sm font-semibold text-white hover:bg-red-400 cursor-pointer">Sair</button>
