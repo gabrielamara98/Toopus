@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import dados from "../data/usersDetail.json";
 import Card from "../components/Card";
 
-function Conectar() {
+function Connection() {
   const [connectedUsers, setConnectedUsers] = useState([]);
 
   useEffect(() => {
@@ -65,4 +65,4 @@ function Conectar() {
   );
 }
 
-export default Conectar;
+export default Connection;
