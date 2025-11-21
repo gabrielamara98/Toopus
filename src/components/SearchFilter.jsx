@@ -47,18 +47,26 @@ function SearchFilter({ onFilter }) {
   return (
     <div className="w-full">
       <aside className="w-full mt-4">
-        <div className="bg-white border border-gray-200 rounded-3xl shadow-md px-6 py-6">
+        <div className="bg-white border border-gray-200 rounded-3xl shadow-md px-6 py-6 dark:bg-gray-800 dark:border-gray-700">
 
+          {/* HEADER */}
           <header className="mb-6">
-            <p className="text-lg font-semibold tracking-wide text-green-600 uppercase">Filtros de pesquisa</p>
-            <p className="text-xs text-gray-500 mt-1">Refine os resultados selecionando as opções abaixo.</p>
-            <div className="border-t border-gray-200 mt-4" />
+            <p className="text-lg font-semibold tracking-wide text-green-600 dark:text-green-400 uppercase">
+              Filtros de pesquisa
+            </p>
+            <p className="text-xs text-gray-500 dark:text-gray-400 mt-1">
+              Refine os resultados selecionando as opções abaixo.
+            </p>
+            <div className="border-t border-gray-200 dark:border-gray-700 mt-4" />
           </header>
 
+          {/* ÁREA */}
           <section className="mb-6">
-            <h2 className="text-base font-semibold text-gray-800 mb-3">Área</h2>
+            <h2 className="text-base font-semibold text-gray-800 dark:text-gray-100 mb-3">
+              Área
+            </h2>
 
-            <div className="space-y-1.5 text-sm text-gray-700">
+            <div className="space-y-1.5 text-sm text-gray-700 dark:text-gray-200">
               {[
                 "Desenvolvimento",
                 "Dados",
@@ -66,14 +74,16 @@ function SearchFilter({ onFilter }) {
                 "Infraestrutura",
                 "Produto",
                 "Qualidade",
-                "Marketing"
+                "Marketing",
               ].map((area) => (
                 <label key={area} className="flex items-center gap-2">
                   <input
                     type="checkbox"
                     value={area}
-                    className="accent-green-600"
-                    onChange={(e) => atualizar(e, areasSelecionadas, setAreasSelecionadas)}
+                    className="accent-green-600 cursor-pointer"
+                    onChange={(e) =>
+                      atualizar(e, areasSelecionadas, setAreasSelecionadas)
+                    }
                   />
                   <span>{area}</span>
                 </label>
@@ -81,19 +91,28 @@ function SearchFilter({ onFilter }) {
             </div>
           </section>
 
-          <div className="border-t border-gray-200 my-4" />
+          <div className="border-t border-gray-200 dark:border-gray-700 my-4" />
 
+          {/* IDIOMAS */}
           <section className="mb-6">
-            <h2 className="text-bse font-semibold text-gray-800 mb-3">Idiomas</h2>
+            <h2 className="text-base font-semibold text-gray-800 dark:text-gray-100 mb-3">
+              Idiomas
+            </h2>
 
-            <div className="space-y-1.5 text-sm text-gray-700">
+            <div className="space-y-1.5 text-sm text-gray-700 dark:text-gray-200">
               {["Inglês", "Espanhol", "Francês", "Alemão"].map((idioma) => (
                 <label key={idioma} className="flex items-center gap-2">
                   <input
                     type="checkbox"
                     value={idioma}
-                    className="accent-green-600"
-                    onChange={(e) => atualizar(e, idiomasSelecionados, setIdiomasSelecionados)}
+                    className="accent-green-600 cursor-pointer"
+                    onChange={(e) =>
+                      atualizar(
+                        e,
+                        idiomasSelecionados,
+                        setIdiomasSelecionados
+                      )
+                    }
                   />
                   <span>{idioma}</span>
                 </label>
@@ -101,25 +120,47 @@ function SearchFilter({ onFilter }) {
             </div>
           </section>
 
-          <div className="border-t border-gray-200 my-4" />
+          <div className="border-t border-gray-200 dark:border-gray-700 my-4" />
 
+          {/* INTERESSES */}
           <section className="mb-2">
-            <h2 className="text-bse font-semibold text-gray-800 mb-3">Áreas de Interesse</h2>
+            <h2 className="text-base font-semibold text-gray-800 dark:text-gray-100 mb-3">
+              Áreas de Interesse
+            </h2>
 
-            <div className="grid grid-cols-2 gap-y-2 text-sm text-gray-700">
+            <div className="grid grid-cols-2 gap-y-2 text-sm text-gray-700 dark:text-gray-200">
               {[
-                "IA", "DevOps", "Design Inclusivo", "Psicologia Cognitiva",
-                "Machine Learning", "Estatística", "Automação", "Cloud Native",
-                "Deep Learning", "NLP", "Educação", "Psicologia Comportamental",
-                "Growth", "Branding", "Mobile First", "Arquitetura Limpa",
-                "Arquitetura de Software", "SRE"
+                "IA",
+                "DevOps",
+                "Design Inclusivo",
+                "Psicologia Cognitiva",
+                "Machine Learning",
+                "Estatística",
+                "Automação",
+                "Cloud Native",
+                "Deep Learning",
+                "NLP",
+                "Educação",
+                "Psicologia Comportamental",
+                "Growth",
+                "Branding",
+                "Mobile First",
+                "Arquitetura Limpa",
+                "Arquitetura de Software",
+                "SRE",
               ].map((int) => (
                 <label key={int} className="flex items-center gap-2">
                   <input
                     type="checkbox"
                     value={int}
-                    className="accent-green-600"
-                    onChange={(e) => atualizar(e, interessesSelecionados, setInteressesSelecionados)}
+                    className="accent-green-600 cursor-pointer"
+                    onChange={(e) =>
+                      atualizar(
+                        e,
+                        interessesSelecionados,
+                        setInteressesSelecionados
+                      )
+                    }
                   />
                   <span>{int}</span>
                 </label>
@@ -128,7 +169,7 @@ function SearchFilter({ onFilter }) {
           </section>
 
           <footer className="mt-4">
-            <div className="border-t border-gray-200 pt-3" />
+            <div className="border-t border-gray-200 dark:border-gray-700 pt-3" />
           </footer>
         </div>
       </aside>
